@@ -10,6 +10,7 @@ Write high-quality, parent-focused page content using the templates, brand voice
 - `docs/brand-voice.md`
 - `docs/content-rules.md`
 - `docs/conversion-rules.md`
+- `docs/image-rules.md` — **Read before planning images**
 - `templates/{page-type}-template.md`
 - `data/locations.json`
 - `data/subjects.json`
@@ -39,19 +40,21 @@ State:
 - Target word count
 - Unique angle (especially for combination pages)
 - Parent question this page answers
+- Image brief following `docs/image-rules.md` (Thai tutor, European child, one child, private setting)
 
 ### Step 4: Write Section by Section
 Follow the template exactly. Write each section in order:
 1. Frontmatter
-2. Hero headline
-3. Parent problem
-4. Service explanation
-5. Specific details (location/subject/curriculum)
-6. Tutor matching
-7. Trust section
-8. FAQ (5-7 items)
-9. CTA
-10. Internal links
+2. Image brief (following template Image Brief section and `docs/image-rules.md`)
+3. Hero headline
+4. Parent problem
+5. Service explanation
+6. Specific details (location/subject/curriculum)
+7. Tutor matching
+8. Trust section
+9. FAQ (5-7 items)
+10. CTA
+11. Internal links
 
 ### Step 5: Apply Brand Voice
 As you write, check against `docs/brand-voice.md`:
@@ -81,6 +84,8 @@ Before finishing, verify:
 - [ ] CTA is specific and clear
 - [ ] No fake claims
 - [ ] No duplicate content from other pages
+- [ ] Image brief is planned following `docs/image-rules.md`
+- [ ] Images show Thai tutor, European child, one child only, private setting
 
 ## Output Format
 

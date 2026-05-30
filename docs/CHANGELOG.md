@@ -72,6 +72,8 @@ Format: `YYYY-MM-DD — [Area] — What changed — Why`
 - `CLAUDE.md` — Added execution loop and project type classification
 - `.github/copilot-instructions.md` — Added execution loop and project type classification
 - `docs/quality-control.md` — Added escalation rule (3 failures → human)
+- `scripts/generate-pages.md` — Added execution loop reference
+- `data/page-types.json` — Added `"images"` to requiredSections
 
 ---
 

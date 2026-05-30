@@ -14,6 +14,21 @@ word_count_target: "1000-1500"
 ---
 ```
 
+## Image Brief
+
+Before writing content, plan images following `docs/image-rules.md`:
+
+### Hero Image
+- **Subject:** Thai tutor and one European child studying {Subject} together in a private apartment or villa
+- **Setting:** Private home with {subject} materials visible (books, notebooks, laptop)
+- **Dimensions:** 1200x600
+- **Format:** WebP
+
+### Supporting Images (1-2)
+- **Subject:** {Subject} learning context in private home setting
+- **Dimensions:** 800x600
+- **Format:** WebP
+
 ## Sections
 
 ### 1. Hero Headline (H1)

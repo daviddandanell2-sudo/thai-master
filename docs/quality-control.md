@@ -117,6 +117,84 @@ These require human judgment:
 3. **Fix Cycle** — Issues are fixed and re-checked
 4. **Final Approval** — Human approves for publish
 
+## Visual Quality Check (MCP Browser Review)
+
+Every site must pass a visual quality check before going live.
+
+### Step 1: Open the Site
+- Open the site in a browser using MCP
+- Navigate through key pages: home, location pages, subject pages, curriculum pages, blog articles
+
+### Step 2: Visual Inspection
+- Does the site look good?
+- Are the images correct? (Thai tutor, European child, one child only, private setting)
+- Is the text readable?
+- Are buttons visible and clickable?
+- Is spacing consistent?
+
+### Step 3: Mobile Test
+- Test on phone screen dimensions
+- Does the layout adapt correctly?
+- Is text still readable?
+- Are CTAs accessible?
+- Does navigation work?
+
+### Step 4: Write a Report
+Create a browser review report:
+
+```markdown
+# Browser Review Report: {Page/Batch Name}
+
+## Date
+{YYYY-MM-DD}
+
+## Pages Reviewed
+- {Page 1}
+- {Page 2}
+
+## What Looks Good
+- {Positive observation}
+
+## What Is Wrong
+- {Issue 1}
+- {Issue 2}
+
+## What Can Be Improved
+- {Improvement 1}
+- {Improvement 2}
+```
+
+## Fix and Finalize
+
+1. Take improvement suggestions from the browser review report
+2. Fix the issues (images, layout, text, spacing, CTAs)
+3. Run the MCP browser check one more time
+4. Write a comment explaining what was changed
+5. Deploy the site only after all issues are resolved
+
+## Escalation Rule
+
+If a page fails QA 3 times after fixes:
+1. Stop working on the page
+2. Document all 3 failures
+3. Update `docs/TRACKING.md` with the failure history
+4. Update `docs/RISKS.md` with the issue
+5. Escalate to the Human project lead via Boss AI
+6. Do not proceed without Human decision
+
+The Human may decide to:
+- Discard the page and rethink the approach
+- Change the template or prompt
+- Approve with known issues
+- Assign a different worker
+
+## QA Worker Rules
+
+- QA Worker is strict. No page passes without meeting all criteria.
+- QA Worker does not approve their own work.
+- QA Worker reports to Boss AI.
+- QA Worker follows `prompts/worker-qa-agent.md`.
+
 ## Remediation Rules
 
 ### If a Page Fails QA

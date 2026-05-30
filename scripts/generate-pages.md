@@ -4,9 +4,14 @@
 
 End-to-end workflow for generating new pages from data, templates, and prompts.
 
+This workflow follows `docs/EXECUTION-LOOP.md`.
+
 ## Prerequisites
 
 Before generating pages, ensure:
+- `docs/EXECUTION-LOOP.md` has been read
+- `docs/TRACKING.md` has been checked
+- `docs/STRATEGY.md` has been reviewed
 - `docs/` files are complete and up to date
 - `data/` files are populated
 - Templates are finalized
@@ -38,30 +43,55 @@ Follow the `prompts/content-agent.md` instructions:
 6. Add conversion elements
 7. Self-check
 
-### Step 4: Add Meta Data
+### Step 4: Add Images
+Follow `prompts/image-agent.md` and `docs/image-rules.md`:
+1. Identify image needs for the page
+2. Write BFL.ai prompts using the image rules (Thai tutor, European child, one child, private setting)
+3. Generate images
+4. Verify every image:
+   - [ ] Is the tutor Thai?
+   - [ ] Is the child European and alone?
+   - [ ] Is there one child only?
+   - [ ] Is the setting private (apartment/villa)?
+   - [ ] Is there no classroom or school background?
+5. If any check fails, fix the prompt and regenerate
+6. Create image brief document with alt text and filenames
+
+### Step 5: Add Meta Data
 Using `templates/meta-template.md`:
 1. Generate SEO title (max 60 chars)
 2. Generate meta description (120-160 chars)
 3. Verify H1 rules
 4. Confirm URL slug
 
-### Step 5: Add Internal Links
+### Step 6: Add Internal Links
 Using `prompts/internal-linking-agent.md`:
 1. Identify related pages
 2. Insert contextual links
 3. Validate anchor text
 
-### Step 6: Run QA
+### Step 7: Run QA
 Using `prompts/qa-agent.md`:
 1. Run automated checks
 2. Run manual checks
-3. Score the page
-4. Fix issues or flag for revision
+3. Verify images against `docs/image-rules.md`
+4. Score the page
+5. Fix issues or flag for revision
 
-### Step 7: Stage for Review
+### Step 8: MCP Browser Review
+Using `docs/quality-control.md`:
+1. Open the page in a browser using MCP
+2. Look at it — Does it look good? Are the images correct?
+3. Test mobile — Does it work well on phone screens?
+4. Write a browser review report
+5. Fix any issues found
+6. Run the browser check one more time
+
+### Step 9: Stage for Review
 1. Save the page to `/content/` in the correct subdirectory
-2. Run `git status` to confirm changes
-3. Document what was created
+2. Save image briefs to `/reports/` or page folder
+3. Run `git status` to confirm changes
+4. Document what was created
 
 ## Batch Size Limits
 

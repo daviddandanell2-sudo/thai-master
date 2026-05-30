@@ -25,6 +25,21 @@ category: "{blog-category}"
 - City education guides
 - SEN support guides
 
+## Image Brief
+
+Before writing content, plan images following `docs/image-rules.md`:
+
+### Featured Image (Open Graph)
+- **Subject:** Relevant to blog topic; if showing people, must be Thai tutor and one European child in private setting
+- **Setting:** Private home, villa, or apartment
+- **Dimensions:** 1200x630
+- **Format:** WebP
+
+### Inline Images (1-2)
+- **Subject:** Illustrative, relevant to topic
+- **Dimensions:** 800x600
+- **Format:** WebP
+
 ## Sections
 
 ### 1. Headline (H1)

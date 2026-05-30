@@ -57,8 +57,34 @@ Verify:
 - No fake school partnerships
 - No unverifiable superlatives
 
-### Step 7: Score and Report
-Assign a score out of 9 based on the checklist.
+### Step 7: Verify Images
+Read `docs/image-rules.md` and check every image:
+- [ ] Is the tutor Thai?
+- [ ] Is the child European and alone?
+- [ ] Is there one child only? (Never two, never zero)
+- [ ] Is the setting private (apartment/villa)?
+- [ ] Is there no classroom or school background?
+- [ ] Is the setting premium and comfortable?
+- [ ] Does the image match the page topic?
+- [ ] Does the image have alt text?
+- [ ] Is the filename SEO-friendly?
+
+**Fail if:** Any image violates `docs/image-rules.md`.
+
+### Step 8: MCP Browser Review
+Run a visual quality check:
+1. Open the page in a browser using MCP
+2. Look at it — Does it look good? Are the images correct?
+3. Test mobile — Does it work well on phone screens?
+4. Write a report:
+   - What looks good
+   - What is wrong
+   - What can be improved
+
+**Fail if:** Visual issues are found and not documented for fixing.
+
+### Step 9: Score and Report
+Assign a score out of 9 based on the checklist. Add image and browser review results to the report.
 
 ## Output Format
 
@@ -93,6 +119,25 @@ Create a QA report for each page reviewed:
 | Avoids fake claims | Pass/Fail | {notes} |
 | Matches brand voice | Pass/Fail | {notes} |
 | Helps parents decide | Pass/Fail | {notes} |
+
+## Image Verification
+| Check | Status | Notes |
+|---|---|---|
+| Tutor is Thai | Pass/Fail | {notes} |
+| Child is European and alone | Pass/Fail | {notes} |
+| One child only | Pass/Fail | {notes} |
+| Private setting (no classroom) | Pass/Fail | {notes} |
+| Premium, comfortable | Pass/Fail | {notes} |
+| Alt text present | Pass/Fail | {notes} |
+| SEO filename | Pass/Fail | {notes} |
+
+## Browser Review
+| Check | Status | Notes |
+|---|---|---|
+| Visual quality | Pass/Fail | {notes} |
+| Mobile responsive | Pass/Fail | {notes} |
+| Images display correctly | Pass/Fail | {notes} |
+| CTA visible | Pass/Fail | {notes} |
 
 ## Score
 {X}/9 — {Rating}

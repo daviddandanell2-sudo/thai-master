@@ -101,6 +101,7 @@ or
 - 1200 x 630 pixels
 - Include brand name
 - Relevant to page topic
+- Must follow `docs/image-rules.md`: Thai tutor, European child, one child only, private setting
 - Use consistently across page types
 
 ### og:type

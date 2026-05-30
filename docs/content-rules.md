@@ -70,6 +70,14 @@ Every service page (location, subject, curriculum) must include:
 - Descriptive anchor text
 - Relevant to the page topic
 
+### 12. Images (Mandatory)
+- Every page must have at least one image
+- Images must follow `docs/image-rules.md`
+- Hero image: 1200x600, showing Thai tutor and European child in private setting
+- Supporting images: 800x600, relevant to page topic
+- All images must have alt text
+- All images must have SEO-friendly filenames
+
 ## Section Length Guidelines
 
 | Section | Minimum | Maximum | Notes |
@@ -89,6 +97,8 @@ Every service page (location, subject, curriculum) must include:
 | Internal Links | 3 links | 7 links | Contextual, descriptive |
 
 **Total page target:** 800-1500 words for service pages. Blog articles: 1200-2500 words.
+
+**Image target:** Every service page must have 1-3 images. Blog articles must have 1-2 images.
 
 ## What Makes Content "Thin"
 
@@ -163,6 +173,8 @@ Before any page is marked complete:
 - [ ] Does it have 5-7 FAQ items?
 - [ ] Does it have at least 3 internal links?
 - [ ] Does it have a clear CTA?
+- [ ] Does it have images following `docs/image-rules.md`?
+- [ ] Do images show Thai tutor, European child, one child only, private setting?
 - [ ] Is the location/subject/curriculum specific enough?
 - [ ] Is it different from similar pages?
 - [ ] Does it avoid fake claims?

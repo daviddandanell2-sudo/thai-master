@@ -58,7 +58,28 @@ For each page, verify:
 - [ ] WhatsApp or contact method is clear
 - [ ] CTA is specific to page topic
 
-### Step 6: Fact Checks
+### Step 6: Image Verification
+For each page, verify against `docs/image-rules.md`:
+- [ ] Is the tutor Thai?
+- [ ] Is the child European and alone?
+- [ ] Is there one child only? (Never two, never zero)
+- [ ] Is the setting private (apartment/villa)?
+- [ ] Is there no classroom or school background?
+- [ ] Is the setting premium and comfortable?
+- [ ] Do images have alt text?
+- [ ] Are filenames SEO-friendly?
+
+### Step 7: Visual and Browser Checks
+For each page, verify:
+- [ ] Page looks good in browser (MCP browser review)
+- [ ] Images display correctly
+- [ ] Text is readable
+- [ ] Buttons are visible and clickable
+- [ ] Mobile layout works correctly
+- [ ] No horizontal scrolling on mobile
+- [ ] Tap targets are appropriately sized
+
+### Step 8: Fact Checks
 For each page, verify:
 - [ ] No fake testimonials
 - [ ] No fake statistics
@@ -103,3 +124,6 @@ A page passes validation when:
 - All High severity issues are resolved
 - 90% of Medium severity issues are resolved
 - No more than 2 Low severity issues remain
+- All image verification checks pass
+- MCP browser review passes (visual quality and mobile test)
+- No image fails `docs/image-rules.md` verification

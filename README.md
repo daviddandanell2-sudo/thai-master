@@ -1,5 +1,31 @@
 # private-tutoring-thailand
-AI-controlled SEO, content, landing page, and lead-generation system for private tutoring in Thailand.
+
+**Project Type:** SEO / Sales Website (Type A)
+
+**Project Control Center:** This file is the entry point for every AI agent, developer, and human working on this project.
+
+---
+
+## 🎯 AI Agent Entry Point
+
+**Before you do ANY work, read these files in this order:**
+
+1. **`docs/STRATEGY.md`** — What this project is, why it exists, and the current strategy
+2. **`docs/TRACKING.md`** — What is being worked on now, what is blocked, who owns what
+3. **`docs/TEAM.md`** — Who does what (AI roles, human roles, RACI matrix)
+4. **`docs/RISKS.md`** — Known blockers and risks that may affect your work
+5. **`docs/EXECUTION-LOOP.md`** — The formal execution loop every task must follow
+6. **`AGENTS.md`** or **`CLAUDE.md`** — Agent rules for this repository
+7. **This README** — Project structure and operating instructions
+
+**Then check:**
+- `docs/DECISIONS.md` — Important decisions that affect your work
+- `docs/BACKLOG.md` — Ideas that may be relevant to your task
+- `docs/CHANGELOG.md` — Recent changes that affect context
+
+**Never work from isolated instructions if project documentation already exists.**
+
+---
 
 ## Project Purpose
 
@@ -14,6 +40,14 @@ This is a market acquisition system.
 The system must help us understand the Thailand tutoring market, create high-quality location pages, subject pages, curriculum pages, blog content, internal linking, tracking, and conversion flows.
 
 The system must be built so AI agents, developers, SEO tools, and content workflows can all work from the same structure.
+
+**Every task follows the execution loop in `docs/EXECUTION-LOOP.md`.**
+
+**Every task is tracked in `docs/TRACKING.md`.**
+
+**Every decision is recorded in `docs/DECISIONS.md`.**
+
+**Every change is logged in `docs/CHANGELOG.md`.**
 
 ## Core Business Concept
 
@@ -277,8 +311,13 @@ The AI must follow the file structure, templates, content rules, SEO rules, and 
 
 Every AI agent must read this README first.
 
+Every AI agent must follow the execution loop in `docs/EXECUTION-LOOP.md`.
+
+Every AI agent must update `docs/TRACKING.md` when starting, changing, or finishing work.
+
 Every AI agent must understand:
 
+* **Project Type:** SEO / Sales Website (Type A)
 * This is a Thailand private tutoring system
 * The structure must stay clean
 * Every page must have a clear search purpose
@@ -292,6 +331,8 @@ Every AI agent must understand:
 * No duplicated city pages with only city names changed
 * No thin SEO pages
 * No random blog articles without a keyword or conversion purpose
+* No work happens outside the system
+* A task is not finished until tracking and documentation are updated
 
 ## Content Quality Rules
 
@@ -542,6 +583,45 @@ Before any page is published, check:
 * Does the page match the brand voice?
 * Does the page help parents make a decision?
 
+## Project Documentation
+
+Every project must have clear documentation. These files are the project memory.
+
+| File | Purpose | Read Before |
+|---|---|---|
+| `docs/STRATEGY.md` | What the project is, why it exists, current strategy | Any strategic work |
+| `docs/TRACKING.md` | Live task list, owners, statuses, blockers, next actions | Any task |
+| `docs/TEAM.md` | Who is responsible for what | Any task |
+| `docs/RISKS.md` | Known risks, blockers, technical debt | Any task |
+| `docs/DECISIONS.md` | Important decisions and why they were made | Any task |
+| `docs/CHANGELOG.md` | What changed, when, and why | Any task |
+| `docs/BACKLOG.md` | Ideas captured, prioritized, scheduled | Planning work |
+| `docs/SEO-PLAN.md` | 12-month SEO roadmap | SEO work |
+| `docs/6-MONTH-PLAN.md` | Month-by-month build plan | Planning work |
+| `docs/EXECUTION-LOOP.md` | Formal execution loop every task must follow | Any task |
+| `docs/QA.md` | Testing, validation, review criteria | QA work |
+
+## Execution Loop
+
+Every task must follow the execution loop in `docs/EXECUTION-LOOP.md`.
+
+Summary:
+1. Read the project README
+2. Read the tracking list
+3. Identify project type
+4. Check strategy or checklist
+5. Confirm owner and responsibility
+6. Check blockers and dependencies
+7. Plan the smallest safe action
+8. Execute only the necessary change
+9. Verify the result
+10. Update tracking
+11. Update documentation
+12. Record decisions
+13. Mark next action
+
+A task is not finished until tracking and documentation are updated.
+
 ## Main Rule
 
 This repository is the brain of the system.
@@ -557,3 +637,5 @@ Build the structure first.
 Then scale with control.
 
 The goal is market domination through structure, quality, automation, internal linking, and continuous improvement.
+
+**No work happens outside the system.**

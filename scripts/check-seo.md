@@ -52,6 +52,7 @@ Workflow for technical and on-page SEO checks.
 - [ ] H2 and H3 tags are used logically
 - [ ] Primary keyword appears in first 100 words
 - [ ] Images have alt text
+- [ ] Images follow `docs/image-rules.md` (Thai tutor, European child, one child, private setting)
 - [ ] Internal links use descriptive anchor text
 - [ ] No broken links
 

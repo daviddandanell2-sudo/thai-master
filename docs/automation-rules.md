@@ -44,6 +44,8 @@ These tasks must be reviewed by a human before execution:
 - No page under 800 words may be published
 - No page without 5 FAQ items may be published
 - No page without 3 internal links may be published
+- No page without images following `docs/image-rules.md` may be published
+- No page without passing MCP browser review may be published
 
 ### Duplication Prevention
 - Before creating a new page, check if a similar page exists
@@ -69,14 +71,16 @@ These tasks must be reviewed by a human before execution:
 1. Follow templates exactly
 2. Follow brand voice rules
 3. Follow content rules
-4. Use data files as source of truth
-5. Do not invent facts, numbers, or testimonials
+4. Follow image rules (`docs/image-rules.md`)
+5. Use data files as source of truth
+6. Do not invent facts, numbers, or testimonials
 
 ### After Work
 1. Show what changed
-2. Run QA checklist on new content
-3. Run `git status`
-4. Stage changes for human review
+2. Run QA checklist on new content (including image verification)
+3. Run MCP browser review on pages
+4. Run `git status`
+5. Stage changes for human review
 
 ## Error Handling
 

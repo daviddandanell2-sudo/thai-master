@@ -28,6 +28,21 @@ Before writing, identify at least one of these unique angles:
 - Seasonal or local factors (e.g., "Families in Phuket often need math catch-up after long holidays")
 - Specific curriculum-school combinations common in {location}
 
+## Image Brief
+
+Before writing content, plan images following `docs/image-rules.md`:
+
+### Hero Image
+- **Subject:** Thai tutor and one European child studying {Subject} together in a private {Location} apartment or villa
+- **Setting:** {Location} specific private home with {subject} materials visible
+- **Dimensions:** 1200x600
+- **Format:** WebP
+
+### Supporting Images (1-2)
+- **Subject:** {Subject} tutoring context in private {Location} home setting
+- **Dimensions:** 800x600
+- **Format:** WebP
+
 ## Sections
 
 ### 1. Hero Headline (H1)

@@ -46,6 +46,8 @@ When planning new pages:
 - Check that every page has a unique title (max 60 chars)
 - Check that every page has a unique meta description (120-160 chars)
 - Verify primary keyword appears in both
+- Check that Open Graph images follow `docs/image-rules.md` (1200x630, Thai tutor, European child, private setting)
+- Check that all images have alt text with primary keyword where natural
 
 ## Output Format
 
