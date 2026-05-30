@@ -1,0 +1,165 @@
+{
+  "pricing": {
+    "strategy": "transparent",
+    "currency": "THB",
+    "lastUpdated": "2026-05-30",
+    "tiers": [
+      {
+        "name": "Introductory",
+        "range": "1,000-1,500",
+        "positioning": "Newer tutors, package rates, online-only",
+        "targetPersona": "budget-conscious"
+      },
+      {
+        "name": "Standard",
+        "range": "1,500-2,500",
+        "positioning": "Vetted qualified teachers, curriculum specialists",
+        "targetPersona": "standard"
+      },
+      {
+        "name": "Premium",
+        "range": "2,500-3,500",
+        "positioning": "Experienced examiners, school partnerships, guaranteed results",
+        "targetPersona": "premium"
+      }
+    ],
+    "byCurriculum": [
+      {
+        "curriculum": "IB Diploma",
+        "budgetRange": "500-1,000",
+        "midRange": "1,500-2,500",
+        "premiumRange": "2,500-4,000",
+        "notes": "Premium IB tutoring commands highest rates due to examiner credentials"
+      },
+      {
+        "curriculum": "IGCSE",
+        "budgetRange": "400-800",
+        "midRange": "1,000-1,800",
+        "premiumRange": "1,800-3,000",
+        "notes": "Widely offered; mid-range pricing is most competitive"
+      },
+      {
+        "curriculum": "A-Level",
+        "budgetRange": "500-1,000",
+        "midRange": "1,200-2,200",
+        "premiumRange": "2,200-3,500",
+        "notes": "Higher complexity than IGCSE; premium for examiner tutors"
+      },
+      {
+        "curriculum": "General English",
+        "budgetRange": "300-600",
+        "midRange": "600-1,200",
+        "premiumRange": "1,200-2,000",
+        "notes": "Largest market but lowest per-hour rates"
+      },
+      {
+        "curriculum": "SEN/Specialist",
+        "budgetRange": "800-1,500",
+        "midRange": "1,500-2,500",
+        "premiumRange": "2,500-4,000",
+        "notes": "Very limited supply; families willing to pay premium"
+      }
+    ],
+    "byCity": [
+      {
+        "city": "Bangkok",
+        "averageRate": "800-1,500",
+        "premiumSegment": "2,000-4,000",
+        "notes": "Highest demand and pricing power"
+      },
+      {
+        "city": "Phuket",
+        "averageRate": "700-1,200",
+        "premiumSegment": "1,500-3,000",
+        "notes": "Strong expat community; seasonal demand"
+      },
+      {
+        "city": "Chiang Mai",
+        "averageRate": "500-1,000",
+        "premiumSegment": "1,200-2,500",
+        "notes": "Lower cost of living; digital nomad families"
+      },
+      {
+        "city": "Pattaya",
+        "averageRate": "600-1,000",
+        "premiumSegment": "1,200-2,000",
+        "notes": "Smaller market; industrial expat families"
+      },
+      {
+        "city": "Hua Hin",
+        "averageRate": "600-1,000",
+        "premiumSegment": "1,200-2,000",
+        "notes": "Growing retiree and family destination"
+      },
+      {
+        "city": "Koh Samui",
+        "averageRate": "700-1,200",
+        "premiumSegment": "1,500-2,500",
+        "notes": "Small but high-intent market"
+      },
+      {
+        "city": "Secondary Cities",
+        "averageRate": "500-900",
+        "premiumSegment": "1,000-1,800",
+        "notes": "Krabi, Chonburi, Rayong, Udon Thani, Khon Kaen, Chiang Rai"
+      }
+    ],
+    "competitorBenchmarks": [
+      {
+        "competitor": "TutorChase",
+        "model": "Online, vetted",
+        "priceRangeThb": "2,300-2,800",
+        "positioning": "Premium"
+      },
+      {
+        "competitor": "++tutors",
+        "model": "Online, IB-only",
+        "priceRangeThb": "~2,000",
+        "positioning": "Premium"
+      },
+      {
+        "competitor": "Tutopiya",
+        "model": "Online, platform",
+        "priceRangeThb": "260-750",
+        "positioning": "Budget"
+      },
+      {
+        "competitor": "International House BKK",
+        "model": "In-person, 1-to-1",
+        "priceRangeThb": "1,400-2,000",
+        "positioning": "Mid-premium"
+      },
+      {
+        "competitor": "Manhattan Review",
+        "model": "In-person, test-prep",
+        "priceRangeThb": "~4,500",
+        "positioning": "Premium (test-prep only)"
+      },
+      {
+        "competitor": "AmazingTalker",
+        "model": "Marketplace",
+        "priceRangeThb": "300-1,000",
+        "positioning": "Budget"
+      },
+      {
+        "competitor": "Superprof",
+        "model": "Marketplace",
+        "priceRangeThb": "500-2,000",
+        "positioning": "Mid-range"
+      },
+      {
+        "competitor": "Spires",
+        "model": "Online marketplace",
+        "priceRangeThb": "1,500-2,500",
+        "positioning": "Mid-premium"
+      },
+      {
+        "competitor": "TopIBTutors",
+        "model": "Online, IB-only",
+        "priceRangeThb": "1,750-2,800",
+        "positioning": "Premium"
+      }
+    ],
+    "notes": "Online tutoring ranges from 260-2,800 THB/hour. In-person tutoring is typically NOT priced online by competitors. Premium positioning is viable at 2,000-3,000 THB/hour. White space exists at 1,000-2,000 THB/hr for vetted, in-person tutoring in secondary cities. Publish pricing transparently — this is a key differentiator vs. most competitors."
+  }
+}

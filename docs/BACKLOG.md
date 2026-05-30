@@ -56,7 +56,7 @@ When an idea is scheduled:
 | I034 | Build automated sitemap generation | System | Could have | Small | Backlog | Script exists but not automated |
 | I035 | Integrate BFL.ai API for image generation | Images | Could have | Medium | Backlog | Currently manual prompt-based |
 | I036 | Add tutor recruitment page | Content | Could have | Medium | Backlog | Type: tutor-recruitment |
-| I037 | Add SEN tutoring pages | Content | Could have | Medium | Backlog | High-value niche |
+| I037 | Add SEN tutoring pages | Content | Must have | Medium | Scheduled — Month 3 | Strategic Bet 3 — blue ocean, zero competition |
 | I038 | Add homeschool support pages | Content | Could have | Medium | Backlog | High-value niche |
 | I039 | Add Thai language tutoring pages | Content | Could have | Medium | Backlog | Local relevance |
 | I040 | Build competitor monitoring system | Research | Could have | Medium | Backlog | Track competitor changes |

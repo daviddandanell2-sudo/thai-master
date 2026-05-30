@@ -3,72 +3,722 @@
     {
       "name": "Kumon Thailand",
       "url": "https://www.kumon.co.th",
-      "locations": ["bangkok", "nonthaburi", "chonburi", "chiang-mai"],
-      "subjects": ["math", "english", "reading"],
-      "strengths": ["Brand recognition", "Structured worksheets", "Many centers"],
-      "weaknesses": ["Focused on Thai curriculum", "Not international curriculum", "Group-based, not one-to-one", "Rigid methodology"],
-      "seoGaps": ["No IGCSE content", "No IB content", "No location-specific tutoring pages"],
-      "threatLevel": "medium"
+      "type": "physical-centre",
+      "founded": null,
+      "positioning": "Worksheet-based, group learning, fixed curriculum",
+      "locations": [
+        "bangkok",
+        "nonthaburi",
+        "chonburi",
+        "chiang-mai"
+      ],
+      "citiesCovered": [
+        "bangkok",
+        "nonthaburi",
+        "chonburi",
+        "chiang-mai"
+      ],
+      "subjects": [
+        "math",
+        "english",
+        "reading"
+      ],
+      "curricula": [
+        "thai-curriculum",
+        "kumon-method"
+      ],
+      "strengths": [
+        "Brand recognition",
+        "Structured worksheets",
+        "Many centers"
+      ],
+      "weaknesses": [
+        "Focused on Thai curriculum",
+        "Not international curriculum",
+        "Group-based, not one-to-one",
+        "Rigid methodology"
+      ],
+      "seoGaps": [
+        "No IGCSE content",
+        "No IB content",
+        "No location-specific tutoring pages"
+      ],
+      "threatLevel": "low",
+      "pricingThbHourly": null,
+      "inPerson": true,
+      "trustSignals": [
+        "Brand recognition",
+        "Many centers"
+      ],
+      "seoStrength": "low",
+      "keyAssessment": "Not a direct competitor; operates fundamentally different model (worksheet-based, group learning). Online presence in Thailand appears weak.",
+      "sources": [
+        "https://www.kumon.co.th"
+      ]
     },
     {
       "name": "ThaiTutor",
       "url": "https://www.thaitutor.com",
-      "locations": ["bangkok"],
-      "subjects": ["english", "thai-language", "math"],
-      "strengths": ["Local market knowledge", "Thai language focus"],
-      "weaknesses": ["Limited to Bangkok", "Basic website", "No curriculum expertise", "No online tutoring"],
-      "seoGaps": ["Weak technical SEO", "No blog content", "No structured data"],
-      "threatLevel": "low"
+      "type": "online-agency",
+      "founded": null,
+      "positioning": "Local market knowledge, Thai language focus",
+      "locations": [
+        "bangkok"
+      ],
+      "citiesCovered": [
+        "bangkok"
+      ],
+      "subjects": [
+        "english",
+        "thai-language",
+        "math"
+      ],
+      "curricula": [],
+      "strengths": [
+        "Local market knowledge",
+        "Thai language focus"
+      ],
+      "weaknesses": [
+        "Limited to Bangkok",
+        "Basic website",
+        "No curriculum expertise",
+        "No online tutoring"
+      ],
+      "seoGaps": [
+        "Weak technical SEO",
+        "No blog content",
+        "No structured data"
+      ],
+      "threatLevel": "low",
+      "pricingThbHourly": null,
+      "inPerson": true,
+      "trustSignals": [],
+      "seoStrength": "low",
+      "keyAssessment": "Extremely basic landing page. No curriculum depth. Serves a different market (general language learning).",
+      "sources": [
+        "https://www.thaitutor.com/lander"
+      ]
     },
     {
       "name": "Superprof Thailand",
       "url": "https://www.superprof.co.th",
-      "locations": ["bangkok", "phuket", "chiang-mai", "pattaya"],
-      "subjects": ["math", "english", "science", "physics", "chemistry", "biology", "coding", "music"],
-      "strengths": ["Large tutor marketplace", "Many subjects", "Online option"],
-      "weaknesses": ["No vetting quality control", "Tutors compete on price", "No curriculum matching", "Inconsistent quality"],
-      "seoGaps": ["Thin location pages", "No curriculum-specific content", "Generic blog"],
-      "threatLevel": "medium"
+      "type": "marketplace",
+      "founded": null,
+      "positioning": "Tutor marketplace - tutors set own rates",
+      "locations": [
+        "bangkok",
+        "phuket",
+        "chiang-mai",
+        "pattaya"
+      ],
+      "citiesCovered": [
+        "bangkok",
+        "phuket",
+        "chiang-mai",
+        "pattaya"
+      ],
+      "subjects": [
+        "math",
+        "english",
+        "science",
+        "physics",
+        "chemistry",
+        "biology",
+        "coding",
+        "music"
+      ],
+      "curricula": [],
+      "strengths": [
+        "Large tutor marketplace",
+        "Many subjects",
+        "Online option"
+      ],
+      "weaknesses": [
+        "No vetting quality control",
+        "Tutors compete on price",
+        "No curriculum matching",
+        "Inconsistent quality"
+      ],
+      "seoGaps": [
+        "Thin location pages",
+        "No curriculum-specific content",
+        "Generic blog"
+      ],
+      "threatLevel": "low-medium",
+      "pricingThbHourly": {
+        "min": 500,
+        "max": 2000,
+        "notes": "Plus $39-49 membership fee"
+      },
+      "inPerson": true,
+      "trustSignals": [
+        "Large tutor pool"
+      ],
+      "seoStrength": "medium",
+      "keyAssessment": "Marketplace model where tutors set own rates. No vetting, no curriculum alignment. Not a premium competitor.",
+      "sources": [
+        "https://www.superprof.co.th",
+        "https://preply.com/en/blog/preply-vs-superprof/"
+      ]
     },
     {
       "name": "Preply",
       "url": "https://preply.com",
-      "locations": ["online"],
-      "subjects": ["english", "math", "science", "coding"],
-      "strengths": ["Global platform", "Online focus", "Large tutor pool"],
-      "weaknesses": ["Not Thailand-specific", "No in-person option", "Generic tutor matching", "No curriculum expertise"],
-      "seoGaps": ["No local Thailand content", "No Bangkok/Phuket pages", "No IB/IGCSE content"],
-      "threatLevel": "low"
+      "type": "online-platform",
+      "founded": 2012,
+      "positioning": "Global online language learning platform",
+      "locations": [
+        "online"
+      ],
+      "citiesCovered": [],
+      "subjects": [
+        "english",
+        "math",
+        "science",
+        "coding"
+      ],
+      "curricula": [],
+      "strengths": [
+        "Global platform",
+        "Online focus",
+        "Large tutor pool"
+      ],
+      "weaknesses": [
+        "Not Thailand-specific",
+        "No in-person option",
+        "Generic tutor matching",
+        "No curriculum expertise"
+      ],
+      "seoGaps": [
+        "No local Thailand content",
+        "No Bangkok/Phuket pages",
+        "No IB/IGCSE content"
+      ],
+      "threatLevel": "low",
+      "pricingThbHourly": {
+        "min": 525,
+        "max": 980,
+        "notes": "Thai teachers $15-28/50-min lesson"
+      },
+      "inPerson": false,
+      "trustSignals": [
+        "Global brand",
+        "Large tutor pool"
+      ],
+      "seoStrength": "low",
+      "keyAssessment": "Language-learning platform. Not positioned for academic tutoring. Not a direct competitor in Thailand.",
+      "sources": [
+        "https://preply.com/en/c/Thailand/thai-tutors"
+      ]
     },
     {
-      "name": "Tutor.com Thailand",
+      "name": "Tutor.com",
       "url": "https://www.tutor.com",
-      "locations": ["online"],
-      "subjects": ["math", "english", "science"],
-      "strengths": ["Well-known brand", "Online platform"],
-      "weaknesses": ["US-focused", "No Thailand presence", "No international curriculum support"],
-      "seoGaps": ["No Thailand-specific pages", "No local SEO"],
-      "threatLevel": "low"
+      "type": "online-platform",
+      "founded": 1998,
+      "positioning": "US-based online tutoring platform (Chegg subsidiary)",
+      "locations": [
+        "online"
+      ],
+      "citiesCovered": [],
+      "subjects": [
+        "math",
+        "english",
+        "science"
+      ],
+      "curricula": [],
+      "strengths": [
+        "Well-known brand",
+        "Online platform"
+      ],
+      "weaknesses": [
+        "US-focused",
+        "No Thailand presence",
+        "No international curriculum support"
+      ],
+      "seoGaps": [
+        "No Thailand-specific pages",
+        "No local SEO"
+      ],
+      "threatLevel": "low",
+      "pricingThbHourly": null,
+      "inPerson": false,
+      "trustSignals": [
+        "Well-known brand"
+      ],
+      "seoStrength": "low",
+      "keyAssessment": "US-only platform. No Thailand-specific pages. Not a competitor in Thailand.",
+      "sources": [
+        "https://www.tutor.com"
+      ]
     },
     {
       "name": "Local Tutor Networks (Facebook/Line)",
       "url": "various",
-      "locations": ["bangkok", "phuket", "chiang-mai", "pattaya", "hua-hin"],
-      "subjects": ["math", "english", "science", "thai-language"],
-      "strengths": ["Low cost", "Direct contact", "Word of mouth"],
-      "weaknesses": ["No quality control", "No vetting", "No guarantees", "No curriculum expertise", "Disorganized"],
-      "seoGaps": ["Not indexable", "No structured content", "No SEO presence"],
-      "threatLevel": "low"
+      "type": "marketplace",
+      "founded": null,
+      "positioning": "Informal tutor communities via Facebook groups and Line",
+      "locations": [
+        "bangkok",
+        "phuket",
+        "chiang-mai",
+        "pattaya",
+        "hua-hin"
+      ],
+      "citiesCovered": [
+        "bangkok",
+        "phuket",
+        "chiang-mai",
+        "pattaya",
+        "hua-hin"
+      ],
+      "subjects": [
+        "math",
+        "english",
+        "science",
+        "thai-language"
+      ],
+      "curricula": [],
+      "strengths": [
+        "Low cost",
+        "Direct contact",
+        "Word of mouth"
+      ],
+      "weaknesses": [
+        "No quality control",
+        "No vetting",
+        "No guarantees",
+        "No curriculum expertise",
+        "Disorganized"
+      ],
+      "seoGaps": [
+        "Not indexable",
+        "No structured content",
+        "No SEO presence"
+      ],
+      "threatLevel": "low",
+      "pricingThbHourly": {
+        "min": 300,
+        "max": 1000,
+        "notes": "Highly variable"
+      },
+      "inPerson": true,
+      "trustSignals": [],
+      "seoStrength": "low",
+      "keyAssessment": "Informal communities. Compete on price but offer no accountability, no curriculum alignment, and are invisible to search engines.",
+      "sources": [
+        "https://kiidu.com/blog/nanny-tutor-bangkok-private-tutor-at-home-for-busy-families/"
+      ]
     },
     {
       "name": "International School Tutoring Services",
       "url": "various",
-      "locations": ["bangkok", "phuket", "chiang-mai"],
-      "subjects": ["math", "english", "science", "ib", "igcse", "a-level"],
-      "strengths": ["Curriculum expertise", "School connections"],
-      "weaknesses": ["Limited tutor pool", "Expensive", "School-dependent", "No online option"],
-      "seoGaps": ["No public-facing SEO", "No content marketing"],
-      "threatLevel": "medium"
+      "type": "individual",
+      "founded": null,
+      "positioning": "School-connected tutoring services and agencies",
+      "locations": [
+        "bangkok",
+        "phuket",
+        "chiang-mai"
+      ],
+      "citiesCovered": [
+        "bangkok",
+        "phuket",
+        "chiang-mai"
+      ],
+      "subjects": [
+        "math",
+        "english",
+        "science",
+        "ib",
+        "igcse",
+        "a-level"
+      ],
+      "curricula": [
+        "ib",
+        "igcse",
+        "a-level"
+      ],
+      "strengths": [
+        "Curriculum expertise",
+        "School connections"
+      ],
+      "weaknesses": [
+        "Limited tutor pool",
+        "Expensive",
+        "School-dependent",
+        "No online option"
+      ],
+      "seoGaps": [
+        "No public-facing SEO",
+        "No content marketing"
+      ],
+      "threatLevel": "medium",
+      "pricingThbHourly": null,
+      "inPerson": true,
+      "trustSignals": [
+        "School connections"
+      ],
+      "seoStrength": "low",
+      "keyAssessment": "Fragmented and school-dependent. Some schools offer internal tutoring; agencies like Kiidu offer nanny tutor services. Niche threat only.",
+      "sources": [
+        "https://kiidu.com/blog/nanny-tutor-bangkok-private-tutor-at-home-for-busy-families/"
+      ]
+    },
+    {
+      "name": "TutorChase",
+      "url": "https://www.tutorchase.com",
+      "type": "online-agency",
+      "founded": 2018,
+      "positioning": "Elite Online Tutoring - premium UK-based agency",
+      "locations": [
+        "bangkok",
+        "chiang-mai",
+        "phuket",
+        "pattaya",
+        "hua-hin",
+        "khon-kaen",
+        "udon-thani",
+        "nakhon-ratchasima",
+        "hat-yai",
+        "chiang-rai"
+      ],
+      "citiesCovered": [
+        "bangkok",
+        "chiang-mai",
+        "phuket",
+        "pattaya",
+        "hua-hin",
+        "khon-kaen",
+        "udon-thani",
+        "nakhon-ratchasima",
+        "hat-yai",
+        "chiang-rai"
+      ],
+      "subjects": [
+        "math",
+        "english",
+        "science",
+        "physics",
+        "chemistry",
+        "biology",
+        "ib",
+        "igcse",
+        "a-level",
+        "ap"
+      ],
+      "curricula": [
+        "ib",
+        "igcse",
+        "a-level",
+        "ap",
+        "gcse"
+      ],
+      "strengths": [
+        "Strong SEO with location-specific pages",
+        "High review ratings (4.93/5, 882 reviews)",
+        "Comprehensive curriculum coverage",
+        "Free revision platform (50K+ questions)",
+        "Rigorous tutor vetting (3% acceptance)"
+      ],
+      "weaknesses": [
+        "No in-person tutoring",
+        "Premium pricing may exclude some families",
+        "Online-only model"
+      ],
+      "seoGaps": [
+        "No physical Thailand presence",
+        "No school-specific content",
+        "No SEN-specific pages"
+      ],
+      "threatLevel": "high",
+      "pricingThbHourly": {
+        "min": 2300,
+        "max": 2800,
+        "notes": "IB from 2,755 THB/hr; IGCSE from 2,300 THB/hr"
+      },
+      "inPerson": false,
+      "trustSignals": [
+        "882 reviews, 4.93/5 rating",
+        "Claims partnerships with 500+ schools",
+        "Free revision platform",
+        "Rigorous vetting"
+      ],
+      "seoStrength": "strong",
+      "keyAssessment": "Strongest direct competitor. Invested heavily in Thailand-specific SEO content with dedicated location pages for 10+ cities. Ranks #1 for best tutoring companies in Thailand.",
+      "sources": [
+        "https://www.tutorchase.com",
+        "https://www.tutorchase.com/ib/thailand-1",
+        "https://www.tutorchase.com/blog/best-tutoring-companies-in-thailand",
+        "https://www.tutorchase.com/igcse/thailand-1"
+      ]
+    },
+    {
+      "name": "Tutopiya",
+      "url": "https://www.tutopiya.com",
+      "type": "online-platform",
+      "founded": null,
+      "positioning": "World's Largest IGCSE & A-Level Question Bank - AI-powered learning platform",
+      "locations": [
+        "bangkok"
+      ],
+      "citiesCovered": [
+        "bangkok"
+      ],
+      "subjects": [
+        "math",
+        "english",
+        "science",
+        "physics",
+        "chemistry",
+        "biology",
+        "igcse",
+        "a-level",
+        "ib"
+      ],
+      "curricula": [
+        "igcse",
+        "a-level",
+        "ib"
+      ],
+      "strengths": [
+        "Extremely aggressive content marketing",
+        "AI-powered platform",
+        "200K+ question bank",
+        "Free trial",
+        "British Council partnership",
+        "Transparent pricing"
+      ],
+      "weaknesses": [
+        "No in-person tutoring",
+        "Based in Singapore (not Thailand)",
+        "Tutors may not have deep local Thailand knowledge"
+      ],
+      "seoGaps": [
+        "No physical presence",
+        "Limited to online delivery"
+      ],
+      "threatLevel": "high",
+      "pricingThbHourly": {
+        "min": 260,
+        "max": 750,
+        "notes": "From ~$9/hour; claims SGD 12/hour"
+      },
+      "inPerson": false,
+      "trustSignals": [
+        "500K+ students served",
+        "200K+ questions",
+        "40K+ resources",
+        "83% claim A/A* grades",
+        "British Council partnership"
+      ],
+      "seoStrength": "very-strong",
+      "keyAssessment": "Major threat due to pricing undercutting (from $9/hr vs industry $40-80/hr). AI platform and massive resource library create compelling value proposition.",
+      "sources": [
+        "https://www.tutopiya.com",
+        "https://www.tutopiya.com/blog/igcse-tuition-guides/best-igcse-tuition-options-bangkok-2026-parent-guide/",
+        "https://www.tutopiya.com/blog/tutopiya-vs-tutorchase-comparison/"
+      ]
+    },
+    {
+      "name": "Plus Plus Tutors",
+      "url": "https://www.plusplustutors.com",
+      "type": "online-agency",
+      "founded": null,
+      "positioning": "IB Tutor Online | 240+ Certified Examiners",
+      "locations": [
+        "bangkok"
+      ],
+      "citiesCovered": [
+        "bangkok"
+      ],
+      "subjects": [
+        "ib",
+        "tok",
+        "extended-essay"
+      ],
+      "curricula": [
+        "ib"
+      ],
+      "strengths": [
+        "Deep IB specialization",
+        "Actual IB examiners on staff",
+        "Strong Bangkok-specific landing page",
+        "Money-back guarantee",
+        "Group courses offered"
+      ],
+      "weaknesses": [
+        "IB only (no IGCSE/A-Level)",
+        "Online-only",
+        "No physical Thailand presence"
+      ],
+      "seoGaps": [
+        "Narrow focus (IB only)",
+        "No multi-city presence"
+      ],
+      "threatLevel": "high",
+      "pricingThbHourly": {
+        "min": 2000,
+        "max": 2000,
+        "notes": "$60/hour flat rate; packages 5hrs $275, 15hrs $750, 30hrs $1,500"
+      },
+      "inPerson": false,
+      "trustSignals": [
+        "4.9/5 Google rating (62 reviews)",
+        "242+ verified reviews",
+        "Money-back guarantee",
+        "Claims 5,000+ students tutored in Bangkok"
+      ],
+      "seoStrength": "medium-strong",
+      "keyAssessment": "Strongest IB-specialist competitor. Dedicated Bangkok page with local school knowledge. Money-back guarantee reduces perceived risk.",
+      "sources": [
+        "https://www.plusplustutors.com",
+        "https://www.plusplustutors.com/locations/thailand/bangkok"
+      ]
+    },
+    {
+      "name": "Krutoo",
+      "url": "https://krutoo.co.th",
+      "type": "physical-centre",
+      "founded": null,
+      "positioning": "Thailand's leading end-to-end hub for international education & academic success",
+      "locations": [
+        "bangkok"
+      ],
+      "citiesCovered": [
+        "bangkok"
+      ],
+      "subjects": [
+        "math",
+        "english",
+        "science",
+        "igcse",
+        "a-level",
+        "ib",
+        "sat",
+        "ap"
+      ],
+      "curricula": [
+        "igcse",
+        "a-level",
+        "ib",
+        "sat",
+        "ap"
+      ],
+      "strengths": [
+        "Only Thailand-based competitor with full-time + 1-to-1 + exam centre",
+        "Official examination centre status",
+        "Strong academic results (97% A-A* IGCSE)",
+        "Multi-service model",
+        "Social media presence across 4 platforms"
+      ],
+      "weaknesses": [
+        "No transparent pricing",
+        "Bangkok only",
+        "Website is functional but not premium",
+        "Limited SEO content depth"
+      ],
+      "seoGaps": [
+        "Limited location-specific content beyond Bangkok",
+        "Weak SEO compared to global agencies"
+      ],
+      "threatLevel": "medium-high",
+      "pricingThbHourly": null,
+      "inPerson": true,
+      "trustSignals": [
+        "First UK-approved homeschool tutoring centre in Thailand",
+        "Official examination centre",
+        "296 A*-A grades in 2025",
+        "97% A-A* IGCSE",
+        "90.3% A-A* A-Level"
+      ],
+      "seoStrength": "medium",
+      "keyAssessment": "Most credible Thailand-based physical competitor. Full-time programme + exam centre combination is unique. Digital marketing is weak compared to global agencies.",
+      "sources": [
+        "https://krutoo.co.th",
+        "https://krutoo.co.th/1-1-tuition/",
+        "https://krutoo.co.th/1-1-tuition/our-curriculums/igcse/"
+      ]
+    },
+    {
+      "name": "Phuket PALS",
+      "url": "https://phuketpals.org",
+      "type": "physical-centre",
+      "founded": 2009,
+      "positioning": "Phuket's Only GED & IELTS Test Center + tutoring centre",
+      "locations": [
+        "phuket"
+      ],
+      "citiesCovered": [
+        "phuket"
+      ],
+      "subjects": [
+        "ged",
+        "ielts",
+        "igcse",
+        "sat",
+        "ib",
+        "a-level"
+      ],
+      "curricula": [
+        "ged",
+        "ielts",
+        "igcse",
+        "sat",
+        "ib",
+        "a-level"
+      ],
+      "strengths": [
+        "Only Phuket competitor with physical centre + test centre + school partnerships",
+        "15+ years track record",
+        "Bilingual support (EN/TH)",
+        "Strong local credibility"
+      ],
+      "weaknesses": [
+        "Phuket only",
+        "No published tutoring hourly rates",
+        "Basic website",
+        "Limited SEO beyond Phuket",
+        "No curriculum-specific deep content"
+      ],
+      "seoGaps": [
+        "Limited SEO beyond Phuket",
+        "No published pricing"
+      ],
+      "threatLevel": "medium",
+      "pricingThbHourly": {
+        "min": null,
+        "max": null,
+        "notes": "GED full-time 69,000 THB/semester; tutoring rates not published"
+      },
+      "inPerson": true,
+      "trustSignals": [
+        "Established 2009",
+        "Recommended by BISP and Head Start",
+        "Exclusive Pearson VUE test centre",
+        "IDP IELTS partner"
+      ],
+      "seoStrength": "low-medium",
+      "keyAssessment": "Dominant player in Phuket but irrelevant outside the island. School partnerships (BISP, Head Start) are significant trust signals.",
+      "sources": [
+        "https://phuketpals.org",
+        "https://phuketpals.org/igcse-tutoring/",
+        "https://phuketpals.org/ged-full-time-admission/"
+      ]
     }
-  ]
+  ],
+  "_meta": {
+    "generatedDate": "2026-05-30",
+    "totalCompetitors": 12,
+    "existingCompetitors": 7,
+    "newCompetitors": 5,
+    "sourceDocument": "03-COMPETITORS.md",
+    "threatDistribution": {
+      "low": 5,
+      "low-medium": 1,
+      "medium": 2,
+      "high": 3,
+      "medium-high": 1
+    }
+  }
 }

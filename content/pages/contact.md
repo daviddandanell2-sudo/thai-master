@@ -5,6 +5,7 @@ slug: "contact"
 primary_keyword: "contact private tutoring thailand"
 page_type: "contact"
 word_count_target: "600-1000"
+last_enriched: "2026-05-30"
 ---
 
 # Contact Private Tutoring Thailand
@@ -45,6 +46,19 @@ Want to talk through your needs? Book a 15-20 minute consultation call.
 - Goals and challenges
 - How tutoring could help
 - Next steps
+
+## What Information Helps Us Match You Faster
+
+The more detail you provide when you contact us, the faster we can find the right tutor. Useful information includes:
+
+- Your child's age, grade, and school
+- The curriculum they follow (IB, IGCSE, A Level, etc.)
+- Subjects where they need support
+- Your location in Thailand
+- Preferred schedule and session frequency
+- Any specific learning needs or goals
+
+You do not need to have all of this ready. Even a brief message is enough to start the conversation.
 
 ## What Happens Next
 

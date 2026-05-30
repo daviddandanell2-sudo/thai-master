@@ -95,18 +95,3 @@ Format: `YYYY-MM-DD — [Area] — What changed — Why`
 
 ---
 
-### [Template]
-
-**Date:** YYYY-MM-DD
-
-**Area:** System / Content / SEO / Images / QA / Deploy
-
-**What:**
-
-**Why:**
-
-**Files created:**
-
-**Files modified:**
-
-**Decisions recorded in:** `docs/DECISIONS.md`

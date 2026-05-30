@@ -27,6 +27,35 @@
 
 ---
 
+## 🚀 Herman: Start Here
+
+**Your #1 action right now:** Register the domain `privatetutoringthailand.com`.
+
+This is the **P0 hard blocker**. Nothing else can go live until this is done.
+
+### Herman's First 4 Steps (15 minutes total)
+
+| Step | Action | Time | Link |
+|------|--------|------|------|
+| 1 | Register `privatetutoringthailand.com` via Namecheap or Cloudflare | 15 min | https://namecheap.com or https://cloudflare.com/registrar |
+| 2 | Set DNS A record to Vercel IPs (76.76.21.21, 76.76.21.93) | 10 min | Cloudflare DNS dashboard |
+| 3 | Create GitHub repo `privatetutoringthailand-website` (private) | 5 min | https://github.com/new |
+| 4 | Add David as collaborator (Admin) on repo | 2 min | GitHub repo > Settings > Collaborators |
+
+**Full Day 1-7 plan:** `docs/6-MONTH-PLAN.md` §4
+
+**Current blocker details:** `docs/TRACKING.md` — T006 + B002
+
+**What happens after domain registration:**
+1. Dev Agent converts the 5 `.md` script specs to TypeScript (`scripts/*.md` → `scripts/*.ts`)
+2. Dev Agent builds the Next.js 15 scaffold (`package.json`, `next.config.ts`, `app/layout.tsx`, `app/page.tsx`)
+3. Content Agent builds the first 8 pages (Home, About, Contact, Pricing, Bangkok, Phuket, Chiang Mai, Math Tutoring)
+4. SEO Agent sets up Google Search Console and Google Business Profile
+
+**Questions?** Check `docs/RISKS.md` — R012 (domain blocker) and R018 (SEN tutor pool).
+
+---
+
 ## Project Purpose
 
 This repository is the central control system for building, managing, and scaling Private Tutoring Thailand.
@@ -246,7 +275,7 @@ Example URL structure:
       a-level-tutoring.md
 
     /blog/
-      example-blog-template.md
+      blog-template.md
 
   /templates/
     location-page-template.md
@@ -600,6 +629,9 @@ Every project must have clear documentation. These files are the project memory.
 | `docs/6-MONTH-PLAN.md` | Month-by-month build plan | Planning work |
 | `docs/EXECUTION-LOOP.md` | Formal execution loop every task must follow | Any task |
 | `docs/QA.md` | Testing, validation, review criteria | QA work |
+| `docs/technical-seo.md` | Technical SEO: CWV, structured data, robots.txt, GBP, penalties | Dev / SEO work |
+| `docs/hermes-control.md` | Hermes AI orchestrator: API specs, reports, permissions, dashboard | Dev work (Month 2) |
+| `docs/execution-handoff.md` | Guardrails, velocity tracker, definition of done, quick reference | All execution work |
 
 ## Execution Loop
 

@@ -1,13 +1,55 @@
 {
   "internalLinks": {
+    "version": "2.0",
+    "lastUpdated": "2026-05-30",
     "rules": {
       "minLinksPerPage": 3,
       "maxLinksPerPage": 7,
       "anchorTextMinWords": 2,
       "anchorTextMaxWords": 6,
-      "forbiddenAnchorText": ["click here", "read more", "learn more", "this page", "here"]
+      "forbiddenAnchorText": [
+        "click here",
+        "read more",
+        "learn more",
+        "this page",
+        "here"
+      ],
+      "exactMatchAnchorCap": 20
     },
     "matrices": [
+      {
+        "sourcePageType": "home",
+        "targetPageTypes": [
+          {
+            "type": "location",
+            "minLinks": 13,
+            "maxLinks": 13,
+            "anchorPattern": "Private tutors in {City}",
+            "example": "Private tutors in Bangkok"
+          },
+          {
+            "type": "subject",
+            "minLinks": 8,
+            "maxLinks": 8,
+            "anchorPattern": "{Subject} tutoring",
+            "example": "Math tutoring"
+          },
+          {
+            "type": "curriculum",
+            "minLinks": 4,
+            "maxLinks": 4,
+            "anchorPattern": "{Curriculum} tutors",
+            "example": "IB tutors"
+          },
+          {
+            "type": "blog",
+            "minLinks": 2,
+            "maxLinks": 4,
+            "anchorPattern": "Related: {blog-title}",
+            "example": "Related: How to find a tutor"
+          }
+        ]
+      },
       {
         "sourcePageType": "location",
         "targetPageTypes": [
@@ -15,21 +57,21 @@
             "type": "subject",
             "minLinks": 2,
             "maxLinks": 4,
-            "anchorPattern": "{subject} tutoring in {location}",
+            "anchorPattern": "{Subject} tutoring in {location}",
             "example": "Math tutoring in Bangkok"
           },
           {
             "type": "curriculum",
             "minLinks": 1,
             "maxLinks": 3,
-            "anchorPattern": "{curriculum} tutoring in {location}",
+            "anchorPattern": "{Curriculum} tutoring in {location}",
             "example": "IB tutoring in Bangkok"
           },
           {
             "type": "location-subject",
             "minLinks": 1,
             "maxLinks": 3,
-            "anchorPattern": "{subject} tutor {location}",
+            "anchorPattern": "{Subject} tutor {location}",
             "example": "Math tutor Bangkok"
           },
           {
@@ -37,7 +79,7 @@
             "minLinks": 0,
             "maxLinks": 2,
             "anchorPattern": "Related: {blog-title}",
-            "example": "Related: Best international schools in Bangkok"
+            "example": "Related: Best schools in Bangkok"
           }
         ]
       },
@@ -48,21 +90,21 @@
             "type": "location",
             "minLinks": 2,
             "maxLinks": 4,
-            "anchorPattern": "{subject} tutor {location}",
+            "anchorPattern": "{Subject} tutor {location}",
             "example": "Math tutor Phuket"
           },
           {
             "type": "curriculum",
             "minLinks": 1,
             "maxLinks": 3,
-            "anchorPattern": "{curriculum} {subject} tutor",
+            "anchorPattern": "{Curriculum} {Subject} tutor",
             "example": "IGCSE math tutor"
           },
           {
             "type": "location-subject",
             "minLinks": 1,
             "maxLinks": 3,
-            "anchorPattern": "{subject} tutoring in {location}",
+            "anchorPattern": "{Subject} tutoring in {location}",
             "example": "Math tutoring in Chiang Mai"
           },
           {
@@ -81,21 +123,21 @@
             "type": "location",
             "minLinks": 2,
             "maxLinks": 4,
-            "anchorPattern": "{curriculum} tutor {location}",
+            "anchorPattern": "{Curriculum} tutor {location}",
             "example": "IB tutor Bangkok"
           },
           {
             "type": "subject",
             "minLinks": 1,
             "maxLinks": 3,
-            "anchorPattern": "{curriculum} {subject} tutor",
+            "anchorPattern": "{Curriculum} {Subject} tutor",
             "example": "IB math tutor"
           },
           {
             "type": "location-curriculum",
             "minLinks": 1,
             "maxLinks": 3,
-            "anchorPattern": "{curriculum} tutoring in {location}",
+            "anchorPattern": "{Curriculum} tutoring in {location}",
             "example": "IGCSE tutoring in Phuket"
           },
           {
@@ -121,15 +163,55 @@
             "type": "subject",
             "minLinks": 1,
             "maxLinks": 2,
-            "anchorPattern": "{subject} tutoring",
+            "anchorPattern": "{Subject} tutoring",
             "example": "Math tutoring"
           },
           {
             "type": "curriculum",
             "minLinks": 0,
             "maxLinks": 2,
-            "anchorPattern": "{curriculum} {subject} support",
+            "anchorPattern": "{Curriculum} {Subject} support",
             "example": "IGCSE math support"
+          },
+          {
+            "type": "blog",
+            "minLinks": 0,
+            "maxLinks": 1,
+            "anchorPattern": "Learn more about {topic}",
+            "example": "Learn more about math tutoring"
+          }
+        ]
+      },
+      {
+        "sourcePageType": "location-curriculum",
+        "targetPageTypes": [
+          {
+            "type": "location",
+            "minLinks": 1,
+            "maxLinks": 2,
+            "anchorPattern": "tutoring in {location}",
+            "example": "Tutoring in Bangkok"
+          },
+          {
+            "type": "curriculum",
+            "minLinks": 1,
+            "maxLinks": 2,
+            "anchorPattern": "{Curriculum} tutoring",
+            "example": "IGCSE tutoring"
+          },
+          {
+            "type": "subject",
+            "minLinks": 0,
+            "maxLinks": 2,
+            "anchorPattern": "{Curriculum} {Subject} tutor",
+            "example": "IGCSE math tutor"
+          },
+          {
+            "type": "blog",
+            "minLinks": 0,
+            "maxLinks": 1,
+            "anchorPattern": "Learn more about {topic}",
+            "example": "Learn more about IGCSE"
           }
         ]
       },
@@ -147,14 +229,14 @@
             "type": "subject",
             "minLinks": 0,
             "maxLinks": 2,
-            "anchorPattern": "{subject} tutoring",
+            "anchorPattern": "{Subject} tutoring",
             "example": "English tutoring"
           },
           {
             "type": "curriculum",
             "minLinks": 0,
             "maxLinks": 2,
-            "anchorPattern": "{curriculum} tutoring",
+            "anchorPattern": "{Curriculum} tutoring",
             "example": "IB tutoring"
           },
           {
@@ -164,6 +246,36 @@
             "anchorPattern": "Private Tutoring Thailand",
             "example": "Private Tutoring Thailand"
           }
+        ]
+      }
+    ],
+    "programmaticPatterns": [
+      {
+        "pattern": "/locations/{city}/{subject}",
+        "linksTo": [
+          "/locations/{city}",
+          "/subjects/{subject}",
+          "/curriculums/{curriculum}"
+        ]
+      },
+      {
+        "pattern": "/locations/{city}/{curriculum}",
+        "linksTo": [
+          "/locations/{city}",
+          "/curriculums/{curriculum}",
+          "/subjects/{subject}"
+        ]
+      },
+      {
+        "pattern": "/subjects/{subject}",
+        "linksTo": [
+          "/locations/{city}/{subject}"
+        ]
+      },
+      {
+        "pattern": "/curriculums/{curriculum}",
+        "linksTo": [
+          "/locations/{city}/{curriculum}"
         ]
       }
     ]

@@ -38,6 +38,28 @@ These tasks must be reviewed by a human before execution:
 - **Phase 3:** Max 150 pages (expanded combinations)
 - **Phase 4+:** Review required for batches over 50 pages
 
+### Content Velocity (from `docs/execution-handoff.md`)
+- **Month 1:** Max 8 pages (hard cap for new domain)
+- **Months 1-3:** Max 5-6 pages/week
+- **Months 4-6:** Max 8-10 pages/week
+- **Combination pages:** Mon/Wed/Fri only, 48-hour gap minimum
+- **Hard stop:** If GSC shows coverage issues, drop to 2/week until resolved
+
+## Hermes Automation Rules (from `docs/hermes-control.md`)
+
+### Automated Reports
+The following reports run automatically once Hermes is built (Month 2):
+- **Daily 06:00:** Rank snapshot (GSC top 30 keywords)
+- **Weekly Mon 07:00:** Organic report + Lead report
+- **Weekly Wed 08:00:** Content quality scan
+- **Every 4 hours:** Index coverage check
+- **Post-deploy:** Deploy validation
+
+### Permission Levels
+- **Auto-approved:** All read operations, local report generation, alert creation
+- **Approval required:** Deploy triggers, workflow triggers, agent runs, image generation, indexing notifications
+- **Blocked:** Direct file modification, commit pushing, branch creation, env var changes, non-PTB repo access
+
 ### Quality Gates
 - Every batch of pages must pass QA before the next batch is created
 - If a batch has more than 20% of pages failing QA, stop and fix the system
