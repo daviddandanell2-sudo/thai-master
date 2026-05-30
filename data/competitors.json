@@ -1,3 +1,74 @@
 {
-  "competitors": []
+  "competitors": [
+    {
+      "name": "Kumon Thailand",
+      "url": "https://www.kumon.co.th",
+      "locations": ["bangkok", "nonthaburi", "chonburi", "chiang-mai"],
+      "subjects": ["math", "english", "reading"],
+      "strengths": ["Brand recognition", "Structured worksheets", "Many centers"],
+      "weaknesses": ["Focused on Thai curriculum", "Not international curriculum", "Group-based, not one-to-one", "Rigid methodology"],
+      "seoGaps": ["No IGCSE content", "No IB content", "No location-specific tutoring pages"],
+      "threatLevel": "medium"
+    },
+    {
+      "name": "ThaiTutor",
+      "url": "https://www.thaitutor.com",
+      "locations": ["bangkok"],
+      "subjects": ["english", "thai-language", "math"],
+      "strengths": ["Local market knowledge", "Thai language focus"],
+      "weaknesses": ["Limited to Bangkok", "Basic website", "No curriculum expertise", "No online tutoring"],
+      "seoGaps": ["Weak technical SEO", "No blog content", "No structured data"],
+      "threatLevel": "low"
+    },
+    {
+      "name": "Superprof Thailand",
+      "url": "https://www.superprof.co.th",
+      "locations": ["bangkok", "phuket", "chiang-mai", "pattaya"],
+      "subjects": ["math", "english", "science", "physics", "chemistry", "biology", "coding", "music"],
+      "strengths": ["Large tutor marketplace", "Many subjects", "Online option"],
+      "weaknesses": ["No vetting quality control", "Tutors compete on price", "No curriculum matching", "Inconsistent quality"],
+      "seoGaps": ["Thin location pages", "No curriculum-specific content", "Generic blog"],
+      "threatLevel": "medium"
+    },
+    {
+      "name": "Preply",
+      "url": "https://preply.com",
+      "locations": ["online"],
+      "subjects": ["english", "math", "science", "coding"],
+      "strengths": ["Global platform", "Online focus", "Large tutor pool"],
+      "weaknesses": ["Not Thailand-specific", "No in-person option", "Generic tutor matching", "No curriculum expertise"],
+      "seoGaps": ["No local Thailand content", "No Bangkok/Phuket pages", "No IB/IGCSE content"],
+      "threatLevel": "low"
+    },
+    {
+      "name": "Tutor.com Thailand",
+      "url": "https://www.tutor.com",
+      "locations": ["online"],
+      "subjects": ["math", "english", "science"],
+      "strengths": ["Well-known brand", "Online platform"],
+      "weaknesses": ["US-focused", "No Thailand presence", "No international curriculum support"],
+      "seoGaps": ["No Thailand-specific pages", "No local SEO"],
+      "threatLevel": "low"
+    },
+    {
+      "name": "Local Tutor Networks (Facebook/Line)",
+      "url": "various",
+      "locations": ["bangkok", "phuket", "chiang-mai", "pattaya", "hua-hin"],
+      "subjects": ["math", "english", "science", "thai-language"],
+      "strengths": ["Low cost", "Direct contact", "Word of mouth"],
+      "weaknesses": ["No quality control", "No vetting", "No guarantees", "No curriculum expertise", "Disorganized"],
+      "seoGaps": ["Not indexable", "No structured content", "No SEO presence"],
+      "threatLevel": "low"
+    },
+    {
+      "name": "International School Tutoring Services",
+      "url": "various",
+      "locations": ["bangkok", "phuket", "chiang-mai"],
+      "subjects": ["math", "english", "science", "ib", "igcse", "a-level"],
+      "strengths": ["Curriculum expertise", "School connections"],
+      "weaknesses": ["Limited tutor pool", "Expensive", "School-dependent", "No online option"],
+      "seoGaps": ["No public-facing SEO", "No content marketing"],
+      "threatLevel": "medium"
+    }
+  ]
 }

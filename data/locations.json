@@ -1,3 +1,207 @@
 {
-  "locations": []
+  "locations": [
+    {
+      "id": "bangkok",
+      "name": "Bangkok",
+      "slug": "bangkok",
+      "region": "Central Thailand",
+      "internationalSchools": [
+        "Bangkok Patana School",
+        "NIST International School",
+        "International School Bangkok",
+        "Shrewsbury International School",
+        "Harrow International School Bangkok",
+        "St. Andrews International School",
+        "KIS International School",
+        "Garden International School"
+      ],
+      "expatDensity": "high",
+      "tutoringDemand": "high",
+      "searchVolumeEstimate": "high",
+      "neighboringLocations": ["nonthaburi"],
+      "active": true
+    },
+    {
+      "id": "phuket",
+      "name": "Phuket",
+      "slug": "phuket",
+      "region": "Southern Thailand",
+      "internationalSchools": [
+        "British International School Phuket",
+        "HeadStart International School",
+        "Quality Schools International Phuket",
+        "Kajonkiet International School Phuket"
+      ],
+      "expatDensity": "high",
+      "tutoringDemand": "high",
+      "searchVolumeEstimate": "medium",
+      "neighboringLocations": ["krabi"],
+      "active": true
+    },
+    {
+      "id": "chiang-mai",
+      "name": "Chiang Mai",
+      "slug": "chiang-mai",
+      "region": "Northern Thailand",
+      "internationalSchools": [
+        "Prem Tinsulanonda International School",
+        "Chiang Mai International School",
+        "Lanna International School",
+        "American Pacific International School",
+        "Grace International School"
+      ],
+      "expatDensity": "high",
+      "tutoringDemand": "medium-high",
+      "searchVolumeEstimate": "medium",
+      "neighboringLocations": ["chiang-rai"],
+      "active": true
+    },
+    {
+      "id": "pattaya",
+      "name": "Pattaya",
+      "slug": "pattaya",
+      "region": "Eastern Thailand",
+      "internationalSchools": [
+        "Regents International School Pattaya",
+        "Tara Pattana International School",
+        "Mooltripakdee International School"
+      ],
+      "expatDensity": "medium",
+      "tutoringDemand": "medium",
+      "searchVolumeEstimate": "medium",
+      "neighboringLocations": ["chonburi", "rayong"],
+      "active": true
+    },
+    {
+      "id": "hua-hin",
+      "name": "Hua Hin",
+      "slug": "hua-hin",
+      "region": "Western Thailand",
+      "internationalSchools": [
+        "Hua Hin International School",
+        "Beaconhouse Yamsaard School"
+      ],
+      "expatDensity": "medium",
+      "tutoringDemand": "medium",
+      "searchVolumeEstimate": "low-medium",
+      "neighboringLocations": [],
+      "active": true
+    },
+    {
+      "id": "koh-samui",
+      "name": "Koh Samui",
+      "slug": "koh-samui",
+      "region": "Southern Thailand",
+      "internationalSchools": [
+        "Panyadee The British School of Samui",
+        "International School of Samui"
+      ],
+      "expatDensity": "medium",
+      "tutoringDemand": "medium",
+      "searchVolumeEstimate": "low-medium",
+      "neighboringLocations": [],
+      "active": true
+    },
+    {
+      "id": "krabi",
+      "name": "Krabi",
+      "slug": "krabi",
+      "region": "Southern Thailand",
+      "internationalSchools": [
+        "Krabi International School"
+      ],
+      "expatDensity": "low-medium",
+      "tutoringDemand": "low-medium",
+      "searchVolumeEstimate": "low",
+      "neighboringLocations": ["phuket"],
+      "active": true
+    },
+    {
+      "id": "nonthaburi",
+      "name": "Nonthaburi",
+      "slug": "nonthaburi",
+      "region": "Greater Bangkok",
+      "internationalSchools": [
+        "International School Bangkok (Nichada Thani)",
+        "Denla British School"
+      ],
+      "expatDensity": "medium",
+      "tutoringDemand": "medium",
+      "searchVolumeEstimate": "low-medium",
+      "neighboringLocations": ["bangkok"],
+      "active": true
+    },
+    {
+      "id": "chiang-rai",
+      "name": "Chiang Rai",
+      "slug": "chiang-rai",
+      "region": "Northern Thailand",
+      "internationalSchools": [
+        "Chiang Rai International School"
+      ],
+      "expatDensity": "low-medium",
+      "tutoringDemand": "low-medium",
+      "searchVolumeEstimate": "low",
+      "neighboringLocations": ["chiang-mai"],
+      "active": true
+    },
+    {
+      "id": "rayong",
+      "name": "Rayong",
+      "slug": "rayong",
+      "region": "Eastern Thailand",
+      "internationalSchools": [
+        "St. Andrews International School Rayong",
+        "Garden International School Rayong"
+      ],
+      "expatDensity": "medium",
+      "tutoringDemand": "medium",
+      "searchVolumeEstimate": "low-medium",
+      "neighboringLocations": ["pattaya", "chonburi"],
+      "active": true
+    },
+    {
+      "id": "chonburi",
+      "name": "Chonburi",
+      "slug": "chonburi",
+      "region": "Eastern Thailand",
+      "internationalSchools": [
+        "Thai-Chinese International School",
+        "Rugby School Thailand"
+      ],
+      "expatDensity": "medium",
+      "tutoringDemand": "medium",
+      "searchVolumeEstimate": "low-medium",
+      "neighboringLocations": ["pattaya", "rayong"],
+      "active": true
+    },
+    {
+      "id": "udon-thani",
+      "name": "Udon Thani",
+      "slug": "udon-thani",
+      "region": "Northeastern Thailand",
+      "internationalSchools": [
+        "Udon Thani International School"
+      ],
+      "expatDensity": "low",
+      "tutoringDemand": "low",
+      "searchVolumeEstimate": "low",
+      "neighboringLocations": [],
+      "active": true
+    },
+    {
+      "id": "khon-kaen",
+      "name": "Khon Kaen",
+      "slug": "khon-kaen",
+      "region": "Northeastern Thailand",
+      "internationalSchools": [
+        "Khon Kaen International School"
+      ],
+      "expatDensity": "low",
+      "tutoringDemand": "low",
+      "searchVolumeEstimate": "low",
+      "neighboringLocations": [],
+      "active": true
+    }
+  ]
 }

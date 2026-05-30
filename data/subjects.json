@@ -1,3 +1,191 @@
 {
-  "subjects": []
+  "subjects": [
+    {
+      "id": "math",
+      "name": "Math",
+      "slug": "math-tutoring",
+      "category": "academic",
+      "parentIntent": ["improve grades", "exam preparation", "build confidence", "fill knowledge gaps"],
+      "relatedCurricula": ["ib", "igcse", "a-level", "cambridge", "british", "american"],
+      "typicalAgeRange": "6-18",
+      "pagePriority": 10,
+      "active": true
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "slug": "english-tutoring",
+      "category": "language",
+      "parentIntent": ["improve grades", "exam preparation", "language support", "writing skills", "reading comprehension"],
+      "relatedCurricula": ["ib", "igcse", "a-level", "cambridge", "british", "american", "eal"],
+      "typicalAgeRange": "5-18",
+      "pagePriority": 10,
+      "active": true
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "slug": "science-tutoring",
+      "category": "academic",
+      "parentIntent": ["improve grades", "exam preparation", "understand concepts", "lab preparation"],
+      "relatedCurricula": ["ib", "igcse", "a-level", "cambridge", "british", "american"],
+      "typicalAgeRange": "10-18",
+      "pagePriority": 9,
+      "active": true
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "slug": "physics-tutoring",
+      "category": "academic",
+      "parentIntent": ["improve grades", "exam preparation", "understand concepts", "problem solving"],
+      "relatedCurricula": ["ib", "igcse", "a-level", "cambridge", "british", "american"],
+      "typicalAgeRange": "14-18",
+      "pagePriority": 8,
+      "active": true
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "slug": "chemistry-tutoring",
+      "category": "academic",
+      "parentIntent": ["improve grades", "exam preparation", "understand concepts", "lab preparation"],
+      "relatedCurricula": ["ib", "igcse", "a-level", "cambridge", "british", "american"],
+      "typicalAgeRange": "14-18",
+      "pagePriority": 8,
+      "active": true
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "slug": "biology-tutoring",
+      "category": "academic",
+      "parentIntent": ["improve grades", "exam preparation", "understand concepts", "memorization support"],
+      "relatedCurricula": ["ib", "igcse", "a-level", "cambridge", "british", "american"],
+      "typicalAgeRange": "14-18",
+      "pagePriority": 8,
+      "active": true
+    },
+    {
+      "id": "thai-language",
+      "name": "Thai Language",
+      "slug": "thai-language-tutoring",
+      "category": "language",
+      "parentIntent": ["learn Thai", "cultural integration", "school support", "conversation skills"],
+      "relatedCurricula": ["international-school", "homeschool"],
+      "typicalAgeRange": "5-18",
+      "pagePriority": 7,
+      "active": true
+    },
+    {
+      "id": "reading",
+      "name": "Reading Support",
+      "slug": "reading-support",
+      "category": "support",
+      "parentIntent": ["improve reading", "comprehension", "fluency", "early literacy"],
+      "relatedCurricula": ["cambridge", "british", "american", "international-school"],
+      "typicalAgeRange": "5-12",
+      "pagePriority": 7,
+      "active": true
+    },
+    {
+      "id": "writing",
+      "name": "Writing Support",
+      "slug": "writing-support",
+      "category": "support",
+      "parentIntent": ["improve writing", "essay skills", "creative writing", "academic writing"],
+      "relatedCurricula": ["ib", "igcse", "a-level", "cambridge", "british", "american"],
+      "typicalAgeRange": "8-18",
+      "pagePriority": 7,
+      "active": true
+    },
+    {
+      "id": "business-english",
+      "name": "Business English",
+      "slug": "business-english-tutoring",
+      "category": "language",
+      "parentIntent": ["professional English", "presentation skills", "business communication"],
+      "relatedCurricula": ["eal", "international-school"],
+      "typicalAgeRange": "16-18",
+      "pagePriority": 5,
+      "active": true
+    },
+    {
+      "id": "coding",
+      "name": "Coding",
+      "slug": "coding-tutoring",
+      "category": "skill",
+      "parentIntent": ["learn programming", "computer science", "STEM skills", "project support"],
+      "relatedCurricula": ["ib", "igcse", "american"],
+      "typicalAgeRange": "10-18",
+      "pagePriority": 5,
+      "active": true
+    },
+    {
+      "id": "chess",
+      "name": "Chess",
+      "slug": "chess-tutoring",
+      "category": "skill",
+      "parentIntent": ["strategic thinking", "concentration", "logical reasoning", "competition prep"],
+      "relatedCurricula": ["extracurricular"],
+      "typicalAgeRange": "6-16",
+      "pagePriority": 3,
+      "active": true
+    },
+    {
+      "id": "homework",
+      "name": "Homework Support",
+      "slug": "homework-support",
+      "category": "support",
+      "parentIntent": ["complete assignments", "understand tasks", "time management", "organization"],
+      "relatedCurricula": ["ib", "igcse", "a-level", "cambridge", "british", "american"],
+      "typicalAgeRange": "6-16",
+      "pagePriority": 6,
+      "active": true
+    },
+    {
+      "id": "exam-prep",
+      "name": "Exam Preparation",
+      "slug": "exam-preparation",
+      "category": "support",
+      "parentIntent": ["pass exams", "reduce anxiety", "revision techniques", "past paper practice"],
+      "relatedCurricula": ["ib", "igcse", "a-level", "cambridge", "british", "american"],
+      "typicalAgeRange": "14-18",
+      "pagePriority": 9,
+      "active": true
+    },
+    {
+      "id": "study-skills",
+      "name": "Study Skills",
+      "slug": "study-skills",
+      "category": "support",
+      "parentIntent": ["organization", "note-taking", "revision strategies", "time management", "exam technique"],
+      "relatedCurricula": ["ib", "igcse", "a-level", "cambridge", "british", "american"],
+      "typicalAgeRange": "12-18",
+      "pagePriority": 6,
+      "active": true
+    },
+    {
+      "id": "homeschool",
+      "name": "Homeschool Tutoring",
+      "slug": "homeschool-tutoring",
+      "category": "support",
+      "parentIntent": ["curriculum delivery", "subject expertise", "exam registration", "socialization support"],
+      "relatedCurricula": ["homeschool", "ib", "igcse", "a-level", "cambridge", "british", "american"],
+      "typicalAgeRange": "5-18",
+      "pagePriority": 7,
+      "active": true
+    },
+    {
+      "id": "sen",
+      "name": "SEN Tutoring",
+      "slug": "sen-tutoring",
+      "category": "support",
+      "parentIntent": ["learning differences", "ADHD support", "dyslexia support", "autism support", "confidence building"],
+      "relatedCurricula": ["ib", "igcse", "a-level", "cambridge", "british", "american", "international-school"],
+      "typicalAgeRange": "5-18",
+      "pagePriority": 8,
+      "active": true
+    }
+  ]
 }

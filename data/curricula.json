@@ -1,3 +1,204 @@
 {
-  "curricula": []
+  "curricula": [
+    {
+      "id": "ib",
+      "name": "IB",
+      "slug": "ib-tutoring",
+      "type": "exam",
+      "targetSchools": [
+        "NIST International School",
+        "KIS International School",
+        "Bangkok Patana School",
+        "Prem Tinsulanonda International School",
+        "International School Bangkok"
+      ],
+      "examStructure": "PYP (Primary Years Programme), MYP (Middle Years Programme), DP (Diploma Programme)",
+      "subjectsCovered": ["math", "english", "science", "physics", "chemistry", "biology", "history", "geography", "economics", "theory-of-knowledge"],
+      "parentProfile": "Values inquiry-based learning and global citizenship. Often considering university abroad.",
+      "popularLocations": ["bangkok", "phuket", "chiang-mai", "pattaya"],
+      "active": true
+    },
+    {
+      "id": "igcse",
+      "name": "IGCSE",
+      "slug": "igcse-tutoring",
+      "type": "exam",
+      "targetSchools": [
+        "Harrow International School Bangkok",
+        "Shrewsbury International School",
+        "British International School Phuket",
+        "Regents International School Pattaya",
+        "St. Andrews International School"
+      ],
+      "examStructure": "Two-year program (ages 14-16), final exams set by Cambridge or Edexcel. Core and extended levels available.",
+      "subjectsCovered": ["math", "english", "science", "physics", "chemistry", "biology", "history", "geography", "economics", "business-studies"],
+      "parentProfile": "Wants a recognized British qualification. Often planning A Levels or university in the UK.",
+      "popularLocations": ["bangkok", "phuket", "pattaya", "chiang-mai", "hua-hin"],
+      "active": true
+    },
+    {
+      "id": "a-level",
+      "name": "A Level",
+      "slug": "a-level-tutoring",
+      "type": "exam",
+      "targetSchools": [
+        "Harrow International School Bangkok",
+        "Shrewsbury International School",
+        "Bangkok Patana School",
+        "British International School Phuket"
+      ],
+      "examStructure": "Two-year program (ages 16-18), 3-4 subjects. AS Level at end of first year, A Level at end of second year.",
+      "subjectsCovered": ["math", "further-math", "english", "physics", "chemistry", "biology", "history", "geography", "economics", "psychology"],
+      "parentProfile": "Focused on university admissions. Needs strong grades for competitive courses.",
+      "popularLocations": ["bangkok", "phuket", "pattaya"],
+      "active": true
+    },
+    {
+      "id": "cambridge",
+      "name": "Cambridge Curriculum",
+      "slug": "cambridge-tutoring",
+      "type": "board",
+      "targetSchools": [
+        "St. Andrews International School",
+        "Garden International School",
+        "International School Bangkok"
+      ],
+      "examStructure": "Cambridge Primary, Lower Secondary, IGCSE, and A Level progression. Checkpoint exams at end of primary and lower secondary.",
+      "subjectsCovered": ["math", "english", "science", "physics", "chemistry", "biology", "history", "geography"],
+      "parentProfile": "Wants a structured, internationally recognized curriculum with clear progression.",
+      "popularLocations": ["bangkok", "phuket", "chiang-mai"],
+      "active": true
+    },
+    {
+      "id": "british",
+      "name": "British Curriculum",
+      "slug": "british-curriculum-tutoring",
+      "type": "board",
+      "targetSchools": [
+        "Harrow International School Bangkok",
+        "Shrewsbury International School",
+        "British International School Phuket",
+        "Regents International School Pattaya"
+      ],
+      "examStructure": "Key Stages 1-4, leading to GCSE/IGCSE and A Level. National Curriculum framework with some school variation.",
+      "subjectsCovered": ["math", "english", "science", "physics", "chemistry", "biology", "history", "geography", "art", "music"],
+      "parentProfile": "British or Commonwealth families. Familiar with UK system. May be returning to UK for university.",
+      "popularLocations": ["bangkok", "phuket", "pattaya", "hua-hin"],
+      "active": true
+    },
+    {
+      "id": "american",
+      "name": "American Curriculum",
+      "slug": "american-curriculum-tutoring",
+      "type": "board",
+      "targetSchools": [
+        "International School Bangkok",
+        "Bangkok Patana School",
+        "Chiang Mai International School"
+      ],
+      "examStructure": "Common Core or school-specific standards. Grades K-12. AP courses in high school. SAT/ACT for university.",
+      "subjectsCovered": ["math", "english", "science", "physics", "chemistry", "biology", "history", "social-studies", "art"],
+      "parentProfile": "American families or families targeting US universities. Values broad education and extracurriculars.",
+      "popularLocations": ["bangkok", "chiang-mai", "phuket"],
+      "active": true
+    },
+    {
+      "id": "australian",
+      "name": "Australian Curriculum",
+      "slug": "australian-curriculum-tutoring",
+      "type": "board",
+      "targetSchools": [
+        "Australian International School Bangkok"
+      ],
+      "examStructure": "Foundation to Year 10 Australian Curriculum. Some schools offer HSC or VCE in senior years.",
+      "subjectsCovered": ["math", "english", "science", "history", "geography"],
+      "parentProfile": "Australian families or families planning to return to Australia. Familiar with Australian system.",
+      "popularLocations": ["bangkok"],
+      "active": true
+    },
+    {
+      "id": "international-school",
+      "name": "International School Support",
+      "slug": "international-school-tutoring",
+      "type": "support",
+      "targetSchools": [
+        "All international schools in Thailand"
+      ],
+      "examStructure": "Varies by school. Support for school-specific curriculum, assessments, and projects.",
+      "subjectsCovered": ["math", "english", "science", "physics", "chemistry", "biology", "history", "geography", "all-core-subjects"],
+      "parentProfile": "Parents whose children attend international schools and need extra support outside school hours.",
+      "popularLocations": ["bangkok", "phuket", "chiang-mai", "pattaya", "hua-hin", "koh-samui"],
+      "active": true
+    },
+    {
+      "id": "homeschool",
+      "name": "Homeschool Support",
+      "slug": "homeschool-tutoring",
+      "type": "support",
+      "targetSchools": [
+        "Homeschool families"
+      ],
+      "examStructure": "Flexible. Families choose curriculum (IB, IGCSE, A Level, American, or mixed). Tutors support delivery and exam registration.",
+      "subjectsCovered": ["math", "english", "science", "physics", "chemistry", "biology", "history", "geography", "all-subjects"],
+      "parentProfile": "Families educating at home. May be digital nomads, relocating families, or families seeking alternative education.",
+      "popularLocations": ["chiang-mai", "phuket", "bangkok", "hua-hin", "koh-samui"],
+      "active": true
+    },
+    {
+      "id": "eal",
+      "name": "English as an Additional Language",
+      "slug": "eal-tutoring",
+      "type": "support",
+      "targetSchools": [
+        "All international schools with EAL programs"
+      ],
+      "examStructure": "No formal exam. Progress measured by language proficiency (CEFR levels, school assessments, IELTS if needed).",
+      "subjectsCovered": ["english", "reading", "writing", "speaking", "listening"],
+      "parentProfile": "Families where English is not the first language. Children need support to access international curriculum.",
+      "popularLocations": ["bangkok", "phuket", "chiang-mai", "pattaya", "chonburi", "rayong"],
+      "active": true
+    },
+    {
+      "id": "thai-language",
+      "name": "Thai Language Support",
+      "slug": "thai-language-support",
+      "type": "support",
+      "targetSchools": [
+        "International schools with Thai language programs"
+      ],
+      "examStructure": "School-specific Thai language assessments. Some students prepare for Thai proficiency tests.",
+      "subjectsCovered": ["thai-language", "thai-reading", "thai-writing", "thai-conversation"],
+      "parentProfile": "Expat families wanting children to learn Thai. Mixed families. Families planning long-term stay in Thailand.",
+      "popularLocations": ["bangkok", "phuket", "chiang-mai", "pattaya", "hua-hin"],
+      "active": true
+    },
+    {
+      "id": "exam-prep",
+      "name": "Exam Preparation",
+      "slug": "exam-preparation-tutoring",
+      "type": "support",
+      "targetSchools": [
+        "All schools with external exams"
+      ],
+      "examStructure": "IGCSE, A Level, IB, SAT, ACT, entrance exams. Focus on exam technique, past papers, and time management.",
+      "subjectsCovered": ["math", "english", "science", "physics", "chemistry", "biology", "all-exam-subjects"],
+      "parentProfile": "Parents with children approaching exams. High anxiety. Needs structured revision and confidence building.",
+      "popularLocations": ["bangkok", "phuket", "chiang-mai", "pattaya", "hua-hin"],
+      "active": true
+    },
+    {
+      "id": "sen",
+      "name": "SEN and Learning Support",
+      "slug": "sen-learning-support",
+      "type": "support",
+      "targetSchools": [
+        "All international schools with SEN departments"
+      ],
+      "examStructure": "Varies by student. May include accommodations for exams. Focus on learning strategies, not just content.",
+      "subjectsCovered": ["math", "english", "science", "all-subjects", "study-skills", "organization"],
+      "parentProfile": "Parents of children with learning differences. Needs patient, specialist support. Often frustrated with standard tutoring.",
+      "popularLocations": ["bangkok", "phuket", "chiang-mai", "pattaya"],
+      "active": true
+    }
+  ]
 }

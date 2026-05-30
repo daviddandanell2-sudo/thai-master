@@ -1,3 +1,364 @@
 {
-  "personas": []
+  "personas": [
+    {
+      "id": "expat-families",
+      "name": "Expat Families Living in Thailand",
+      "slug": "expat-families",
+      "description": "Families who have relocated to Thailand for work and are settling into life with school-age children.",
+      "painPoints": [
+        "Curriculum gaps between home country and Thailand",
+        "Finding trusted tutors who understand international systems",
+        "Language barriers for children not fluent in English or Thai",
+        "Understanding the local education landscape",
+        "Maintaining educational standards from home country"
+      ],
+      "searchBehavior": [
+        "private tutor bangkok",
+        "igcse tutor phuket",
+        "english tutor thailand",
+        "international school tutor",
+        "homeschool support thailand"
+      ],
+      "decisionCriteria": [
+        "Tutor qualifications and experience",
+        "Curriculum knowledge",
+        "Reliability and punctuality",
+        "References from other expat families",
+        "Flexibility with scheduling"
+      ],
+      "contentPreferences": [
+        "Location guides",
+        "Curriculum explanations",
+        "Tutor vetting process details",
+        "Relocation tips",
+        "School comparison content"
+      ],
+      "primaryLocations": ["bangkok", "phuket", "chiang-mai", "pattaya", "hua-hin"],
+      "active": true
+    },
+    {
+      "id": "international-school-families",
+      "name": "International School Families",
+      "slug": "international-school-families",
+      "description": "Families with children already enrolled in international schools who need extra academic support.",
+      "painPoints": [
+        "Keeping up with demanding curriculum",
+        "Exam pressure and anxiety",
+        "Subject weaknesses in specific areas",
+        "Understanding complex topics",
+        "Time management with extracurriculars"
+      ],
+      "searchBehavior": [
+        "ib math tutor",
+        "igcse science tutor",
+        "a level tutor bangkok",
+        "exam preparation tutor",
+        "physics tutor phuket"
+      ],
+      "decisionCriteria": [
+        "Curriculum-specific expertise",
+        "Exam success track record",
+        "Deep subject knowledge",
+        "Availability during school term",
+        "Compatibility with child's learning style"
+      ],
+      "contentPreferences": [
+        "Subject-specific help guides",
+        "Exam preparation resources",
+        "Curriculum comparison articles",
+        "Study technique content",
+        "Past paper strategies"
+      ],
+      "primaryLocations": ["bangkok", "phuket", "chiang-mai", "pattaya"],
+      "active": true
+    },
+    {
+      "id": "relocating-families",
+      "name": "Relocating Families",
+      "slug": "relocating-families",
+      "description": "Families in the process of moving to Thailand or recently arrived, navigating the transition.",
+      "painPoints": [
+        "Curriculum transition challenges",
+        "Catching up after a move",
+        "Finding the right school",
+        "Understanding all available options",
+        "Managing children's stress during transition"
+      ],
+      "searchBehavior": [
+        "tutoring for relocating families",
+        "homeschool tutor thailand",
+        "international school tutor",
+        "moving to bangkok schools",
+        "transition support thailand"
+      ],
+      "decisionCriteria": [
+        "Transition support experience",
+        "Flexibility during uncertain times",
+        "Understanding of multiple curricula",
+        "Quick availability",
+        "Cultural sensitivity"
+      ],
+      "contentPreferences": [
+        "Relocation guides",
+        "Curriculum transition advice",
+        "City education overviews",
+        "School enrollment timelines",
+        "Settling-in support content"
+      ],
+      "primaryLocations": ["bangkok", "phuket", "chiang-mai", "pattaya", "hua-hin"],
+      "active": true
+    },
+    {
+      "id": "digital-nomad-families",
+      "name": "Digital Nomad Families",
+      "slug": "digital-nomad-families",
+      "description": "Families who travel frequently or work remotely, needing flexible education solutions.",
+      "painPoints": [
+        "Inconsistent schooling due to travel",
+        "Maintaining education while moving",
+        "Online tutoring needs",
+        "Finding tutors who work with non-traditional schedules",
+        "Socialization concerns"
+      ],
+      "searchBehavior": [
+        "online tutor thailand",
+        "homeschool support thailand",
+        "flexible tutoring",
+        "virtual tutor bangkok",
+        "remote learning support"
+      ],
+      "decisionCriteria": [
+        "Online tutoring capability",
+        "Maximum scheduling flexibility",
+        "Understanding of non-traditional schooling",
+        "Ability to work across time zones",
+        "Self-directed learning support"
+      ],
+      "contentPreferences": [
+        "Online tutoring guides",
+        "Homeschool curriculum advice",
+        "Flexible scheduling options",
+        "Digital learning resources",
+        "Travel-friendly education tips"
+      ],
+      "primaryLocations": ["chiang-mai", "phuket", "bangkok", "koh-samui"],
+      "active": true
+    },
+    {
+      "id": "homeschool-families",
+      "name": "Homeschool Families",
+      "slug": "homeschool-families",
+      "description": "Families who have chosen to educate their children at home, either full-time or part-time.",
+      "painPoints": [
+        "Curriculum planning and selection",
+        "Exam registration and administration",
+        "Subject expertise gaps for parents",
+        "Socialization concerns",
+        "Keeping records and meeting standards"
+      ],
+      "searchBehavior": [
+        "homeschool tutor thailand",
+        "homeschool support bangkok",
+        "private tutor homeschool",
+        "homeschool curriculum thailand",
+        "exam registration homeschool"
+      ],
+      "decisionCriteria": [
+        "Curriculum knowledge across multiple systems",
+        "Flexibility to work with homeschool structure",
+        "Exam registration experience",
+        "Ability to teach multiple subjects",
+        "Patience with non-traditional learners"
+      ],
+      "contentPreferences": [
+        "Homeschool curriculum guides",
+        "Exam registration help",
+        "Subject support resources",
+        "Legal requirements content",
+        "Socialization strategy guides"
+      ],
+      "primaryLocations": ["chiang-mai", "phuket", "bangkok", "hua-hin", "koh-samui"],
+      "active": true
+    },
+    {
+      "id": "local-thai-families",
+      "name": "Local Thai Families Using International Curricula",
+      "slug": "local-thai-families",
+      "description": "Thai families who have chosen international education for their children and need additional support.",
+      "painPoints": [
+        "English language support for academic subjects",
+        "Understanding international systems unfamiliar to parents",
+        "Exam preparation for external qualifications",
+        "Bridging gaps between Thai and international education",
+        "Affordability of tutoring"
+      ],
+      "searchBehavior": [
+        "english tutor bangkok",
+        "igcse tutor thailand",
+        "international curriculum tutor",
+        "math tutor english speaking",
+        "private tutor affordable"
+      ],
+      "decisionCriteria": [
+        "English proficiency of tutor",
+        "Curriculum knowledge",
+        "Cultural understanding",
+        "Value for money",
+        "Accessibility and location"
+      ],
+      "contentPreferences": [
+        "Curriculum explanations in accessible language",
+        "English language support content",
+        "Local context and relevance",
+        "Cost-transparent information",
+        "Bilingual support options"
+      ],
+      "primaryLocations": ["bangkok", "phuket", "chiang-mai", "pattaya", "chonburi", "rayong"],
+      "active": true
+    },
+    {
+      "id": "english-speaking-families",
+      "name": "Families Needing English-Speaking Tutors",
+      "slug": "english-speaking-families",
+      "description": "Families who specifically need tutors fluent in English for academic or language support.",
+      "painPoints": [
+        "Finding native or fluent English-speaking tutors",
+        "Subject-specific English support",
+        "Understanding accents and teaching styles",
+        "Ensuring academic vocabulary is taught correctly",
+        "Balancing English support with other subjects"
+      ],
+      "searchBehavior": [
+        "english speaking tutor thailand",
+        "native english tutor bangkok",
+        "english math tutor",
+        "fluent english tutor phuket",
+        "british tutor thailand"
+      ],
+      "decisionCriteria": [
+        "English fluency level",
+        "Subject expertise in English",
+        "Teaching experience",
+        "Cultural compatibility",
+        "Accent clarity"
+      ],
+      "contentPreferences": [
+        "Tutor profile details",
+        "English language support resources",
+        "Subject-specific content in English",
+        "Teaching methodology explanations",
+        "Language assessment information"
+      ],
+      "primaryLocations": ["bangkok", "phuket", "chiang-mai", "pattaya", "hua-hin"],
+      "active": true
+    },
+    {
+      "id": "exam-prep-families",
+      "name": "Families Needing Exam Preparation",
+      "slug": "exam-prep-families",
+      "description": "Families with children approaching important exams who need structured revision and support.",
+      "painPoints": [
+        "Exam anxiety and stress",
+        "Gaps in knowledge across subjects",
+        "Time pressure before exams",
+        "Understanding exam format and requirements",
+        "Balancing revision with schoolwork"
+      ],
+      "searchBehavior": [
+        "igcse exam tutor",
+        "ib exam preparation",
+        "a level revision tutor",
+        "exam prep bangkok",
+        "past paper tutor thailand"
+      ],
+      "decisionCriteria": [
+        "Exam-specific experience",
+        "Past paper knowledge",
+        "Revision technique expertise",
+        "Track record of exam success",
+        "Structured approach to preparation"
+      ],
+      "contentPreferences": [
+        "Exam preparation guides",
+        "Past paper resources",
+        "Revision strategies",
+        "Exam technique tips",
+        "Timeline and planning content"
+      ],
+      "primaryLocations": ["bangkok", "phuket", "chiang-mai", "pattaya"],
+      "active": true
+    },
+    {
+      "id": "sen-families",
+      "name": "Families Needing SEN or ADHD Support",
+      "slug": "sen-families",
+      "description": "Families with children who have special educational needs, learning differences, or ADHD.",
+      "painPoints": [
+        "Finding tutors with SEN training",
+        "Understanding specific learning needs",
+        "Coordinating with school SEN departments",
+        "Finding patient, understanding tutors",
+        "Building confidence in struggling learners"
+      ],
+      "searchBehavior": [
+        "sen tutor thailand",
+        "adhd tutor bangkok",
+        "dyslexia tutor thailand",
+        "special needs tutor phuket",
+        "learning support tutor"
+      ],
+      "decisionCriteria": [
+        "SEN-specific training and qualifications",
+        "Patience and empathy",
+        "Customized teaching approach",
+        "Experience with specific needs",
+        "Willingness to collaborate with schools"
+      ],
+      "contentPreferences": [
+        "SEN support guides",
+        "Tutor qualification details",
+        "Success stories and strategies",
+        "Understanding different learning differences",
+        "School collaboration advice"
+      ],
+      "primaryLocations": ["bangkok", "phuket", "chiang-mai", "pattaya"],
+      "active": true
+    },
+    {
+      "id": "short-stay-families",
+      "name": "Short-Stay Families Needing Temporary Tutoring",
+      "slug": "short-stay-families",
+      "description": "Families visiting Thailand for short periods who need temporary educational support.",
+      "painPoints": [
+        "Quick setup and tutor matching",
+        "Short-term availability",
+        "Maintaining school progress while traveling",
+        "Finding tutors who accept temporary arrangements",
+        "Managing different time zones for online tutoring"
+      ],
+      "searchBehavior": [
+        "short term tutor thailand",
+        "vacation tutor phuket",
+        "temporary tutor bangkok",
+        "holiday tutor thailand",
+        "travel tutor chiang mai"
+      ],
+      "decisionCriteria": [
+        "Speed of setup",
+        "Flexibility for short-term commitment",
+        "Online tutoring option",
+        "No long-term contracts",
+        "Quick tutor availability"
+      ],
+      "contentPreferences": [
+        "Quick-start guides",
+        "Location-specific information",
+        "Flexible scheduling options",
+        "Online vs in-person comparison",
+        "Short-term pricing transparency"
+      ],
+      "primaryLocations": ["phuket", "bangkok", "chiang-mai", "koh-samui", "krabi", "hua-hin"],
+      "active": true
+    }
+  ]
 }

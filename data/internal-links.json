@@ -1,3 +1,171 @@
 {
-  "internalLinks": []
+  "internalLinks": {
+    "rules": {
+      "minLinksPerPage": 3,
+      "maxLinksPerPage": 7,
+      "anchorTextMinWords": 2,
+      "anchorTextMaxWords": 6,
+      "forbiddenAnchorText": ["click here", "read more", "learn more", "this page", "here"]
+    },
+    "matrices": [
+      {
+        "sourcePageType": "location",
+        "targetPageTypes": [
+          {
+            "type": "subject",
+            "minLinks": 2,
+            "maxLinks": 4,
+            "anchorPattern": "{subject} tutoring in {location}",
+            "example": "Math tutoring in Bangkok"
+          },
+          {
+            "type": "curriculum",
+            "minLinks": 1,
+            "maxLinks": 3,
+            "anchorPattern": "{curriculum} tutoring in {location}",
+            "example": "IB tutoring in Bangkok"
+          },
+          {
+            "type": "location-subject",
+            "minLinks": 1,
+            "maxLinks": 3,
+            "anchorPattern": "{subject} tutor {location}",
+            "example": "Math tutor Bangkok"
+          },
+          {
+            "type": "blog",
+            "minLinks": 0,
+            "maxLinks": 2,
+            "anchorPattern": "Related: {blog-title}",
+            "example": "Related: Best international schools in Bangkok"
+          }
+        ]
+      },
+      {
+        "sourcePageType": "subject",
+        "targetPageTypes": [
+          {
+            "type": "location",
+            "minLinks": 2,
+            "maxLinks": 4,
+            "anchorPattern": "{subject} tutor {location}",
+            "example": "Math tutor Phuket"
+          },
+          {
+            "type": "curriculum",
+            "minLinks": 1,
+            "maxLinks": 3,
+            "anchorPattern": "{curriculum} {subject} tutor",
+            "example": "IGCSE math tutor"
+          },
+          {
+            "type": "location-subject",
+            "minLinks": 1,
+            "maxLinks": 3,
+            "anchorPattern": "{subject} tutoring in {location}",
+            "example": "Math tutoring in Chiang Mai"
+          },
+          {
+            "type": "blog",
+            "minLinks": 0,
+            "maxLinks": 2,
+            "anchorPattern": "Related: {blog-title}",
+            "example": "Related: How to support your child in math"
+          }
+        ]
+      },
+      {
+        "sourcePageType": "curriculum",
+        "targetPageTypes": [
+          {
+            "type": "location",
+            "minLinks": 2,
+            "maxLinks": 4,
+            "anchorPattern": "{curriculum} tutor {location}",
+            "example": "IB tutor Bangkok"
+          },
+          {
+            "type": "subject",
+            "minLinks": 1,
+            "maxLinks": 3,
+            "anchorPattern": "{curriculum} {subject} tutor",
+            "example": "IB math tutor"
+          },
+          {
+            "type": "location-curriculum",
+            "minLinks": 1,
+            "maxLinks": 3,
+            "anchorPattern": "{curriculum} tutoring in {location}",
+            "example": "IGCSE tutoring in Phuket"
+          },
+          {
+            "type": "blog",
+            "minLinks": 0,
+            "maxLinks": 2,
+            "anchorPattern": "Related: {blog-title}",
+            "example": "Related: Understanding the IB curriculum"
+          }
+        ]
+      },
+      {
+        "sourcePageType": "location-subject",
+        "targetPageTypes": [
+          {
+            "type": "location",
+            "minLinks": 1,
+            "maxLinks": 2,
+            "anchorPattern": "tutoring in {location}",
+            "example": "Tutoring in Bangkok"
+          },
+          {
+            "type": "subject",
+            "minLinks": 1,
+            "maxLinks": 2,
+            "anchorPattern": "{subject} tutoring",
+            "example": "Math tutoring"
+          },
+          {
+            "type": "curriculum",
+            "minLinks": 0,
+            "maxLinks": 2,
+            "anchorPattern": "{curriculum} {subject} support",
+            "example": "IGCSE math support"
+          }
+        ]
+      },
+      {
+        "sourcePageType": "blog",
+        "targetPageTypes": [
+          {
+            "type": "location",
+            "minLinks": 0,
+            "maxLinks": 2,
+            "anchorPattern": "tutoring in {location}",
+            "example": "Tutoring in Phuket"
+          },
+          {
+            "type": "subject",
+            "minLinks": 0,
+            "maxLinks": 2,
+            "anchorPattern": "{subject} tutoring",
+            "example": "English tutoring"
+          },
+          {
+            "type": "curriculum",
+            "minLinks": 0,
+            "maxLinks": 2,
+            "anchorPattern": "{curriculum} tutoring",
+            "example": "IB tutoring"
+          },
+          {
+            "type": "home",
+            "minLinks": 1,
+            "maxLinks": 1,
+            "anchorPattern": "Private Tutoring Thailand",
+            "example": "Private Tutoring Thailand"
+          }
+        ]
+      }
+    ]
+  }
 }

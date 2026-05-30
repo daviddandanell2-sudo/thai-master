@@ -1,3 +1,104 @@
 {
-  "pageTypes": []
+  "pageTypes": [
+    {
+      "id": "home",
+      "name": "Home Page",
+      "urlPattern": "/",
+      "requiredSections": ["hero", "services", "locations", "subjects", "curricula", "trust", "cta"],
+      "seoPurpose": "National brand presence and broad keyword targeting",
+      "internalLinkRules": "Link to all active location pages, subject pages, curriculum pages, and key blog articles",
+      "conversionAction": "WhatsApp inquiry or contact form",
+      "active": true
+    },
+    {
+      "id": "location",
+      "name": "Location Page",
+      "urlPattern": "/locations/{slug}/",
+      "requiredSections": ["hero", "parent-problem", "location-relevance", "subjects", "curricula", "tutor-matching", "trust", "faq", "cta", "internal-links"],
+      "seoPurpose": "City-specific tutoring searches",
+      "internalLinkRules": "Link to related subject pages, curriculum pages, location-subject pages, and blog articles about this location",
+      "conversionAction": "WhatsApp inquiry about tutoring in this location",
+      "active": true
+    },
+    {
+      "id": "subject",
+      "name": "Subject Page",
+      "urlPattern": "/subjects/{slug}/",
+      "requiredSections": ["hero", "parent-problem", "subject-explanation", "age-groups", "curricula", "locations", "tutor-qualifications", "trust", "faq", "cta", "internal-links"],
+      "seoPurpose": "Subject-specific tutoring searches",
+      "internalLinkRules": "Link to related location pages, curriculum pages, and location-subject pages",
+      "conversionAction": "WhatsApp inquiry about this subject",
+      "active": true
+    },
+    {
+      "id": "curriculum",
+      "name": "Curriculum Page",
+      "urlPattern": "/curriculum/{slug}/",
+      "requiredSections": ["hero", "parent-problem", "curriculum-explanation", "exam-structure", "subjects", "locations", "tutor-expertise", "trust", "faq", "cta", "internal-links"],
+      "seoPurpose": "Curriculum-specific tutoring searches",
+      "internalLinkRules": "Link to related location pages, subject pages, and location-curriculum pages",
+      "conversionAction": "WhatsApp inquiry about this curriculum",
+      "active": true
+    },
+    {
+      "id": "location-subject",
+      "name": "Location Plus Subject Page",
+      "urlPattern": "/thailand/{location-slug}/{subject-slug}/",
+      "requiredSections": ["hero", "parent-problem", "unique-angle", "local-context", "tutor-matching", "trust", "faq", "cta", "internal-links"],
+      "seoPurpose": "Specific city+subject searches like 'math tutor Bangkok'",
+      "internalLinkRules": "Link to parent location page, parent subject page, related curriculum pages, and related combination pages",
+      "conversionAction": "WhatsApp inquiry about this subject in this location",
+      "active": true
+    },
+    {
+      "id": "location-curriculum",
+      "name": "Location Plus Curriculum Page",
+      "urlPattern": "/thailand/{location-slug}/{curriculum-slug}/",
+      "requiredSections": ["hero", "parent-problem", "unique-angle", "local-context", "tutor-matching", "trust", "faq", "cta", "internal-links"],
+      "seoPurpose": "Specific city+curriculum searches like 'IB tutor Phuket'",
+      "internalLinkRules": "Link to parent location page, parent curriculum page, related subject pages, and related combination pages",
+      "conversionAction": "WhatsApp inquiry about this curriculum in this location",
+      "active": true
+    },
+    {
+      "id": "blog",
+      "name": "Blog Article",
+      "urlPattern": "/blog/{slug}/",
+      "requiredSections": ["headline", "hook", "problem", "research", "practical-advice", "internal-links", "cta"],
+      "seoPurpose": "Informational keywords and parent question answering",
+      "internalLinkRules": "Link to at least one relevant service page (location, subject, or curriculum)",
+      "conversionAction": "Soft CTA to contact or learn more about related services",
+      "active": true
+    },
+    {
+      "id": "parent-guide",
+      "name": "Parent Guide",
+      "urlPattern": "/guides/{slug}/",
+      "requiredSections": ["headline", "introduction", "chapters", "practical-advice", "internal-links", "cta"],
+      "seoPurpose": "Long-form informational content for researching parents",
+      "internalLinkRules": "Link to multiple relevant service pages throughout the guide",
+      "conversionAction": "Soft CTA to book consultation or contact",
+      "active": true
+    },
+    {
+      "id": "tutor-recruitment",
+      "name": "Tutor Recruitment Page",
+      "urlPattern": "/tutors/",
+      "requiredSections": ["hero", "why-tutor-with-us", "requirements", "application-process", "locations", "faq", "cta"],
+      "seoPurpose": "Attract qualified tutors in Thailand",
+      "internalLinkRules": "Link to about page and contact page",
+      "conversionAction": "Application form or email inquiry",
+      "active": true
+    },
+    {
+      "id": "contact",
+      "name": "Contact and Booking Page",
+      "urlPattern": "/contact/",
+      "requiredSections": ["hero", "contact-methods", "form", "faq", "response-time"],
+      "seoPurpose": "Direct contact and conversion",
+      "internalLinkRules": "Link to home page and key service pages",
+      "conversionAction": "Form submission or WhatsApp message",
+      "active": true
+    }
+  ]
 }
